@@ -1,0 +1,153 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>A Tela Principal do VisuAlg</title>
+</head>
+
+<body>
+
+<p><font face="Arial" size="4">A Tela Principal do VisuAlg</font></p>
+<p><font face="Arial" size="2">A tela do VisuAlg compõe-se da barra de tarefas,
+do editor de textos (que toma toda a sua metade superior), do quadro de
+variáveis (no lado esquerdo da metade inferior), do simulador de saída (no
+correspondente lado direito) e da barra de <i>status</i>. Quando o programa é carregado, já
+apresenta no editor um
+&quot;esqueleto&quot; de pseudocódigo, com a intenção de poupar trabalho
+ao usuário e de mostrar o formato básico que deve ser seguido. Explicaremos a
+seguir cada componente da interface
+do VisuAlg.</font></p>
+<p align="center"><img border="0" src="tela.jpg" width="599" height="453"></p>
+<p align="center">&nbsp;</p>
+<p><font face="Arial" size="2"><b>A Barra de Tarefas</b></font></p>
+<p><font face="Arial" size="2">Contém os comandos mais utilizados no VisuAlg (estes comandos também podem ser acessados pelo menu ou por atalhos no
+teclado).</font></p>
+<p align="center"><img border="0" src="barra1.jpg" width="638" height="181"></p>
+<p><font face="Arial" size="2">
+<b>Abrir (Ctrl-A):</b>  Abre um arquivo anteriormente gravado, substituindo o
+texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua
+confirmação para salvá-lo antes que seja sobreposto.<br>
+<b>Novo (Ctrl-N):</b> Cria um novo
+&quot;esqueleto&quot; de pseudocódigo, substituindo o texto presente no editor. Se
+este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo
+antes que seja sobreposto.<br>
+<b>Salvar (Ctrl-S):</b> Grava imediatamente o texto presente no editor. Na
+primeira vez que um novo texto é gravado, o VisuAlg pede seu nome e
+localização.<br>
+<b>Imprimir:</b> Imprime imediatamente na impressora padrão o texto presente no editor. Para configurar a impressão, use o comando
+Imprimir do menu Arquivo (acessível também pelo atalho <i>Ctrl-P</i>).<br>
+<b>Cortar (Ctrl-X):</b> Apaga texto selecionado, armazenando-o em uma área de
+transferência.<b><br>
+Copiar (Ctrl-C):</b> Copia o texto selecionado para a área de transferência.<b><br>
+Colar (Ctrl-V):</b> Copia texto da área de transferência para o local em que
+está o cursor.<b><br>
+Gravar bloco de texto:</b> Permite a gravação em arquivo de um texto
+selecionado no editor. A extensão sugerida para o nome do arquivo é <i>.inc</i>.<b><br>
+Inserir bloco de texto:</b> Permite a inserção do conteúdo de um arquivo. A
+extensão sugerida para o nome do arquivo é <i>.inc</i>.<b><br>
+Desfazer (Ctrl-Z):</b> Desfaz último comando efetuado.<b><br>
+Refazer (Shift-Ctrl-Z):</b> Refaz último comando desfeito.<b><br>
+Localizar (Ctrl-L):</b> Localiza no texto presente no editor determinada palavra
+especificada.<b><br>
+Substituir (Ctrl-U):</b> Localiza no texto presente no editor determinada
+palavra especificada, substituindo-a por outra.<b><br>
+Corrigir Indentação (Ctrl-G)</b>: Corrige automaticamente a <i> indentação</i>
+(ou tabulação) do pseudocódigo, tabulando cada comando interno com espaços à
+esquerda.<br>
+</font><font face="Arial" size="2">
+<b>Numerar linhas:</b> Ativa ou desativa a exibição dos números das linhas na
+área à esquerda do editor. A linha e a coluna do editor em que o cursor está em
+um determinado momento também são mostradas na barra de <i>status</i> (parte
+inferior da tela).
+Por motivos técnicos, esta opção é automaticamente desativada durante a execução do
+pseudocódigo, mas volta a ser ativada logo em seguida.<br>
+<b>Mostrar variáveis modificadas</b>: Ativa ou desativa a exibição da variável que está
+sendo modificada. Como o número de variáveis pode ser grande, muitas podem
+estar fora da janela de visualização; quando esta característica está
+ativada, o VisuAlg rola a grade de exibição de modo que cada variável fique
+visível no momento em está sendo
+modificada. Este recurso é especialmente útil quando se executa um pseudocódigo passo a
+passo. Por questões de desempenho, a configuração padrão desta
+característica é <i>desativada,</i> quando o pseudocódigo está sendo executado
+automaticamente. No entanto, basta clicar este botão para executá-lo automaticamente com a exibição
+ativada. No final da execução, a configuração volta a ser <i>desativada</i>.<br>
+<b>
+Restaurar tela inicial:</b> ???<b><br>
+</b>
+</font></p>
+<p><img border="0" src="barra2.jpg" width="697" height="189"></p>
+<p><font face="Arial" size="2"><b>Executar (F9):&nbsp;</b>Inicia (ou continua) a execução automática do pseudocódigo.<br>
+<b>Executar com <i>timer</i> (Shift-F9):</b>: Insere um atraso (que pode ser
+especificado no intervalo ao lado) antes da
+execução de cada linha. Também realça em fundo
+azul o comando que está sendo executado, da mesma forma que na execução passo a
+passo.<br>
+<b>
+Intervalo do <i>timer</i>:&nbsp;</b>Atraso em cada linha, para quando se deseja
+executar o pseudocódigo com <i>timer</i>.<b><br>
+Passo (F8):</b> Inicia (ou continua) a execução linha por linha do
+  pseudocódigo, dando ao usuário a oportunidade de acompanhar o fluxo de
+  execução, os valores das variáveis e a pilha de ativação dos
+  subprogramas.<br>
+<b>Parar (Ctrl-F2):</b>  </font><font face="Arial" size="2"> Termina imediatamente a execução do pseudocódigo. Evidentemente,
+  este botão fica desabilitado quando o pseudocódigo não está sendo
+executado</font><font face="Arial" size="2">.<br>
+<b>
+Liga/desliga <i>breakpoint</i> (F5):</b> </font><font face="Arial" size="2">Insere/remove um ponto de parada na
+  linha em que esteja o cursor. Estes pontos de parada são úteis para a
+  depuração e acompanhamento da execução dos pseudocódigos, pois permitem a
+  verificação dos valores das variáveis e da pilha de ativação de
+  subprogramas. </font><font face="Arial" size="2"><b><br>
+Desmarcar todos os <i>breakpoints</i> (Ctrl-F5):</b> </font><font face="Arial" size="2"> Desativa todos os
+<i> breakpoints</i>
+  que estejam ativados naquele momento. </font><font face="Arial" size="2"><b><br>
+Executar em modo DOS:</b> </font><font face="Arial" size="2"> Com esta opção ativada, tanto a entrada como a
+  saída-padrão passa a ser uma janela que imita o DOS, simulando a execução
+  de um programa neste ambiente. </font><font face="Arial" size="2"><b><br>
+Gerar valores aleatórios:</b> </font><font face="Arial" size="2">Ativa a geração de valores aleatórios
+      que substituem a digitação de
+dados. A faixa padrão de valores
+      gerados é de 0 a 100 inclusive, mas pode ser modificada (basta alterar
+intervalo ao lado). Para a geração de dados do tipo
+      caractere, não há uma faixa pré-estabelecida: os dados gerados serão sempre
+<i>strings</i> de 5 letras maiúsculas.</font><font face="Arial" size="2"><b><br>
+Intervalo dos valores aleatórios:</b> Faixa de valores que serão gerados
+automaticamente, quando esta opção estiver ativada.<br>
+<b>Perfil (F7):</b>  </font><font face="Arial" size="2"> Após a execução de um pseudocódigo, exibe o número de vezes
+  que cada umas das suas linhas foi executada. É útil para a análise de eficiência
+  (por exemplo, nos métodos de ordenação).</font><font face="Arial" size="2"><br>
+<b>
+Mostrar pilha de ativação (Ctrl-F3):</b> </font><font face="Arial" size="2"> Exibe a pilha de subprogramas ativados num dado
+  momento. Convém utilizar este comando em
+  conjunto com <i>breakpoints</i> ou com a execução passo a passo.<b><br>
+Ajuda (F1):</b> Possibilita acesso às páginas de
+ajuda e às informações sobre o VisuAlg.<br>
+</font></p>
+<p><font size="2" face="Arial"><b>Quadro de Variáveis</b></font></p>
+<p><font size="2" face="Arial">É formado por uma grade na qual são mostrados o
+escopo de cada variável (se for do programa principal, será global; se for
+local, será apresentado o nome do subprograma onde foi declarada), seus nomes (também com
+os índices, nos casos em que sejam vetores), seu tipo
+(&quot;I&quot; para inteiro, &quot;R&quot; para real, &quot;C&quot; para caractere e &quot;L&quot; para
+lógico) e o seu valor corrente. A versão atual do VisuAlg permite a
+visualização de até 500
+variáveis (contando individualmente cada elemento dos vetores).</font></p>
+<p><font size="2" face="Arial"><b>A Barra de <i> Status</i></b></font></p>
+<p><font size="2" face="Arial">Situada na parte inferior da tela, esta barra contém
+dois painéis: o primeiro mostra a linha e a coluna onde o cursor está, e o segundo
+mostra a palavra <i>Modificado</i>  no caso em que o pseudocódigo tenha sido alterado desde
+que foi carregado ou salvo pela última vez. Nesta barra, há ainda um terceiro
+painel disponível, que ainda não tem um uso específico na atual versão.</font></p>
+
+<p align="center"><font face="Arial" size="2">&nbsp; <a href="objetivos.htm">Objetivos</a>&nbsp;&nbsp;&nbsp;
+<a href="telaprin.htm">Tela principal</a>&nbsp;&nbsp;&nbsp;</font> <font face="Arial" size="2"><a href="menu.htm">Menu</a></font>&nbsp;&nbsp;&nbsp;
+<a href="linguagem.htm"><font face="Arial" size="2">A linguagem do VisuAlg</font></a>&nbsp;&nbsp;&nbsp;
+<a href="refer.htm"><font face="Arial" size="2">Referências da linguagem do VisuAlg</font></a><font face="Arial" size="2">&nbsp;&nbsp; </font> <font face="Arial" size="2"><a href="autocomp.htm">Mais
+recursos</a></font></p>
+
+</body>
+
+</html>
