@@ -1,22 +1,16 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função : Cálculo de Preço por Quantidade de Mercadorias
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
-// Seção de Declarações
+
 var
    MERCADORIA:caracter
    PRECO:real
    QUANTIDADE:inteiro
 inicio
-// Seção de Comandos 
+// Seï¿½ï¿½o de Comandos 
    escreval("Digite a mercadoria:")
    leia(MERCADORIA)
-   escreval("Digite o preço:")
+   escreval("Digite o preï¿½o:")
    leia(PRECO)
    escreval("Digite a quantidade:")
    leia(QUANTIDADE)
-   escreval("O total à pagar por",QUANTIDADE," ",MERCADORIA," é",QUANTIDADE*PRECO)
+   escreval("O total ï¿½ pagar por",QUANTIDADE," ",MERCADORIA," ï¿½",QUANTIDADE*PRECO)
 fimalgoritmo
