@@ -4,10 +4,12 @@ algoritmo "Aulas de VisuALG"
 var
 A: vetor [1..10] de inteiro
 I,SOMA:inteiro
+
 inicio
 // Secao de Comandos
+
 para I de 1 ate 10 faca
-   escreval("Digite um numero:")
+   escreval("Digite um numero:",I)
    leia(A[I])
    se(A[I] MOD 2=0) entao
       SOMA<-SOMA+A[I]
