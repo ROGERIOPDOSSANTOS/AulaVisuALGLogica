@@ -1,17 +1,14 @@
 // Algoritmo : DECIMAL PARA HEXA
-// Função : Demonstração para o programa VisuAlg, usando a estrutura
-//          escolha...caso...fimescolha
-// Autor : Claudio Morgado de Souza
-// Data : 13/04/2003
+
 algoritmo "dectohex"
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
    x : caracter
    y,d : inteiro
 inicio
-// Seção de Comandos
-escreval("Programa de Conversão Decimal para Hexadecimal")
-escreva("Entre com um número inteiro:")
+// Seï¿½ï¿½o de Comandos
+escreval("Programa de Conversï¿½o Decimal para Hexadecimal")
+escreva("Entre com um nï¿½mero inteiro:")
 leia(y)
 d <- y
 se y < 0 entao
@@ -54,6 +51,6 @@ enquanto y > 0 faca
    fimescolha
    y <- y div 16
 fimenquanto
-escreval( "A representação hexadecimal de", d, " é ", x,"h")
+escreval( "A representaï¿½ï¿½o hexadecimal de", d, " ï¿½ ", x,"h")
 fimalgoritmo
 

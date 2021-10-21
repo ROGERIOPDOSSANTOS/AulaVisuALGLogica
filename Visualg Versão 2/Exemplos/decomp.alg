@@ -1,12 +1,9 @@
 algoritmo "decompor"
-// Função : Decompõe um número em seus fatores primos
-// Autor : Cláudio Morgado de Souza
-// Data : 31/10/2002
-// Seção de Declarações 
+
 var j, valor : inteiro
     p, ex : vetor [1..10] de inteiro
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 p[1] <- 2
 p[2] <- 3
 p[3] <- 5

@@ -1,12 +1,7 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função :  Jogo de Batalha naval simples
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
-// Comandos usados: Para,Procedimento,Se e Senão, Matrizes,Aleatório e Enquanto
-// Seção de Declarações
+
+// Comandos usados: Para,Procedimento,Se e Senï¿½o, Matrizes,Aleatï¿½rio e Enquanto
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 
 var
 TABULEIRO, MASCARA: vetor[1..10,1..10] de caractere
@@ -27,7 +22,7 @@ para LINHA de 1 ate 10 faca
 fimpara
 fimprocedimento
 
-//Posicionar Hidroaviões
+//Posicionar Hidroaviï¿½es
 procedimento COLOCAHIDRO
 var
 CONTADOR:inteiro
@@ -88,7 +83,7 @@ fimpara
 aleatorio off
 fimprocedimento
 
-//Posicionar Encouraçados
+//Posicionar Encouraï¿½ados
 procedimento COLOCAENCO
 var
 CONTADOR:inteiro
@@ -108,7 +103,7 @@ fimpara
 aleatorio off
 fimprocedimento
 
-//Posicionar Porta-aviões
+//Posicionar Porta-aviï¿½es
 procedimento COLOCAPORT
 inicio
 aleatorio 1,10
@@ -134,7 +129,7 @@ para LINHA de 1 ate 10 faca
 fimpara
 fimprocedimento
 
-//Mostrar Máscara
+//Mostrar Mï¿½scara
 procedimento MOSTRARMASCARA (ALVO:caracter)
 inicio
 limpatela
@@ -146,18 +141,18 @@ para LINHA de 1 ate 10 faca
    escreval("")
 fimpara
 escreval("=======================================")
-escreval(NOME,",sua pontuação é de:",PONTOS," pontos")
+escreval(NOME,",sua pontuaï¿½ï¿½o ï¿½ de:",PONTOS," pontos")
 escolha ALVO
 caso "H"
-   escreval("Parabéns! Você acertou um Hidroavião e ganhou 5 pontos!")
+   escreval("Parabï¿½ns! Vocï¿½ acertou um Hidroaviï¿½o e ganhou 5 pontos!")
 caso "S"
-   escreval("Parabéns! Você acertou um Submarino e ganhou 8 pontos!")
+   escreval("Parabï¿½ns! Vocï¿½ acertou um Submarino e ganhou 8 pontos!")
 caso "C"
-   escreval("Parabéns! Você acertou um Cruzadores e ganhou 14 pontos!")
+   escreval("Parabï¿½ns! Vocï¿½ acertou um Cruzadores e ganhou 14 pontos!")
 caso "E"
-   escreval("Parabéns! Você acertou um Encouraçados e ganhou 20 pontos!")
+   escreval("Parabï¿½ns! Vocï¿½ acertou um Encouraï¿½ados e ganhou 20 pontos!")
 caso "P"
-   escreval("Parabéns! Você acertou um Porta-Aviões e ganhou 30 pontos!")
+   escreval("Parabï¿½ns! Vocï¿½ acertou um Porta-Aviï¿½es e ganhou 30 pontos!")
 fimescolha
 fimprocedimento
 
@@ -172,7 +167,7 @@ para NUM_JOGADA de 1 ate 5 faca
    escreval("Digite uma coluna:")
    leia(COLUNA)
    se (MASCARA[LINHA,COLUNA]<>"*") entao
-      escreval("Você já digitou essa coordenada!")
+      escreval("Vocï¿½ jï¿½ digitou essa coordenada!")
       NUM_JOGADA<-NUM_JOGADA + 1
    senao
       MASCARA[LINHA,COLUNA] <- TABULEIRO[LINHA,COLUNA]
@@ -199,20 +194,20 @@ para NUM_JOGADA de 1 ate 5 faca
 fimpara
 fimprocedimento
 
-//Finalização
+//Finalizaï¿½ï¿½o
 procedimento FINALIZAR
 inicio
 limpatela
-escreval("Fim de jogo! Sua pontuação:",PONTOS)
+escreval("Fim de jogo! Sua pontuaï¿½ï¿½o:",PONTOS)
 escreval("Deseja Reiniciar? (SIM/NAO)")
 leia(REINICIAR)
 se  (REINICIAR="NAO") entao
-   escreval("Fim de jogo! Sua pontuação:",PONTOS)
+   escreval("Fim de jogo! Sua pontuaï¿½ï¿½o:",PONTOS)
 fimalgoritmo
 fimse
 fimprocedimento
 
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 inicio
 COMECO<-1
 enquanto COMECO=1 faca

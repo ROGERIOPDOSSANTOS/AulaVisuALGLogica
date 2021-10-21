@@ -1,15 +1,13 @@
 // Algoritmo : DECIMAL PARA BINARIO USANDO PARA...FACA
-// Função : Demonstração para o programa VisuAlg
-// Autor : Claudio Morgado de Souza
-// Data : 08/09/2002
+
 algoritmo "dectobin"
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 x : caracter
 j,y,d : inteiro
 inicio
-// Seção de Comandos
-escreva("Entre com um número inteiro :")
+// Seï¿½ï¿½o de Comandos
+escreva("Entre com um nï¿½mero inteiro :")
 leia(y)
 d <- y
 para j de 1 ate 10 faca
@@ -20,6 +18,6 @@ para j de 1 ate 10 faca
    fimse
    y <- y div 2
 fimpara
-escreval("A representação binária de", d, " é ", x)
+escreval("A representaï¿½ï¿½o binï¿½ria de", d, " ï¿½ ", x)
 fimalgoritmo
 

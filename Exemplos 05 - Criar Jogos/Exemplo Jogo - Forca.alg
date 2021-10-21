@@ -1,12 +1,7 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função : Jogo da Forca Simples
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
+
 // Comandos usados: Escolha Caso,Para,Limpatela e Vetores.
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 JOGADOR1,JOGADOR2:caractere
 A: vetor[1..6] de caractere
@@ -15,14 +10,14 @@ LETRAERRADA,LETRAS: vetor[1..8] de caractere
 LETRACERTA: vetor[1..6] de caractere
 I,J,OPCAO,OPCAO2,ERRO,PONTOS,RODADA,COMECAR,RECOMECAR:inteiro
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 //O menu inicial.
-//Traz a opção de jogar,ler as instruções ou sair do jogo,de acordo com o número
-//inserido pelo usuário.
+//Traz a opï¿½ï¿½o de jogar,ler as instruï¿½ï¿½es ou sair do jogo,de acordo com o nï¿½mero
+//inserido pelo usuï¿½rio.
 escreval("Bem-vindo ao Jogo Da Forca!")
 escreval("")
 escreval("1-Jogar")
-escreval("2-Instruções")
+escreval("2-Instruï¿½ï¿½es")
 escreval("3-Sair")
 leia(OPCAO)
 escolha OPCAO
@@ -30,22 +25,22 @@ caso 1
    limpatela
 caso 2
    limpatela
-   escreval("O Jogo Da Forca é muito simples.")
+   escreval("O Jogo Da Forca ï¿½ muito simples.")
    escreval("Primeiramente os jogadores digitam seus nomes")
-   escreval("O jogador 1 digitará uma palavra de 6 letras.")
-   escreval("O jogador 2 tentará adivinhar a palavra escondida.")
+   escreval("O jogador 1 digitarï¿½ uma palavra de 6 letras.")
+   escreval("O jogador 2 tentarï¿½ adivinhar a palavra escondida.")
    escreval("")
    escreval("Caso o jogador 2 erre a letra 8 vezes,o jogador 1 vence.")
    escreval("Caso o jogador 2 adivinhe a palavra ele vence.")
    escreval("")
 caso 3
    limpatela
-   escreval("Você saiu do jogo!")
+   escreval("Vocï¿½ saiu do jogo!")
 fimalgoritmo
 fimescolha
 
-//Seção de escolha do nome dos jogadores.
-//Os nomes são armazenados em duas variáveis: JOGADOR1 e JOGADOR2.
+//Seï¿½ï¿½o de escolha do nome dos jogadores.
+//Os nomes sï¿½o armazenados em duas variï¿½veis: JOGADOR1 e JOGADOR2.
 escreval("Digite o nome do jogador(a) 1:")
 leia(JOGADOR1)
 escreval("Digite o nome do jogador(a) 2:")
@@ -53,7 +48,7 @@ leia(JOGADOR2)
 limpatela
 
 //Leitura da palavra
-//Nessa parte,o programa lê uma palavra de 6 letras,armazenando cada letra
+//Nessa parte,o programa lï¿½ uma palavra de 6 letras,armazenando cada letra
 //em um valor do vetor.
 para I de 1 ate 6 faca
 escreval (JOGADOR1,", digite uma letra para a palavra de 6 letras e pressione ENTER:")
@@ -64,7 +59,7 @@ fimpara
 RODADA<-RODADA+1
 
 
-//Denominação de vetores que aparecerão na tela,pois se fosse usado o A[I],
+//Denominaï¿½ï¿½o de vetores que aparecerï¿½o na tela,pois se fosse usado o A[I],
 // a resposta apareceria na tela antes mesmo de ser descoberta.
 LETRACERTA[1]<-"-"
 LETRACERTA[2]<-"-"
@@ -73,40 +68,40 @@ LETRACERTA[4]<-"-"
 LETRACERTA[5]<-"-"
 LETRACERTA[6]<-"-"
 
-//Finalização de jogo caso os erros igualem a 8.J vai de 1 até 13,pois o máximo
-//de tentativas que o jogador pode fazer,errando ao máximo,mas vencendo será:
-//errando 7 vezes porém acertando 6 letras.As rodadas são contabilizadas aumentando
-//em +1 a cada início de pergunta.
+//Finalizaï¿½ï¿½o de jogo caso os erros igualem a 8.J vai de 1 atï¿½ 13,pois o mï¿½ximo
+//de tentativas que o jogador pode fazer,errando ao mï¿½ximo,mas vencendo serï¿½:
+//errando 7 vezes porï¿½m acertando 6 letras.As rodadas sï¿½o contabilizadas aumentando
+//em +1 a cada inï¿½cio de pergunta.
 para J de 1 ate 13 faca
 
 
 //Os erros devem ser o primeiro item analisado,pois caso sejam 8 o jogo deve
 //encerrar-se antes mesmo da pergunta de letras ser feita novamente.
 se(ERRO=8)entao
-   escreval(JOGADOR2,", você teve 8 erros!")
+   escreval(JOGADOR2,", vocï¿½ teve 8 erros!")
    escreval(JOGADOR1," venceu!")
    escreval("Fim de jogo!")
 fimalgoritmo
 fimse
 
-//A interface do jogo possui as frases que sempre aparecerão ao início de cada jogada.
-//Esse jogo mostra a quantidade de erros,número da rodada ,as letras que a
-//palavra não possui e as letras da palavra descobertas até o momento.
+//A interface do jogo possui as frases que sempre aparecerï¿½o ao inï¿½cio de cada jogada.
+//Esse jogo mostra a quantidade de erros,nï¿½mero da rodada ,as letras que a
+//palavra nï¿½o possui e as letras da palavra descobertas atï¿½ o momento.
 escreval("Rodada:",RODADA,"        Quantidade de erros:",ERRO)
 escreval("Letras erradas:",LETRAERRADA[1],LETRAERRADA[2],LETRAERRADA[3],LETRAERRADA[4],LETRAERRADA[5],LETRAERRADA[6],LETRAERRADA[7])
 escreval("Palavra:",LETRACERTA[1],LETRACERTA[2],LETRACERTA[3],LETRACERTA[4],LETRACERTA[5],LETRACERTA[6])
 
-//Nesta parte o jogo solicita que o jogador tente acertar uma letra e a lê.
+//Nesta parte o jogo solicita que o jogador tente acertar uma letra e a lï¿½.
 escreval(JOGADOR2,", digite uma letra:")
 leia(TENTATIVA[J])
 
-//Nesta parte do jogo ,a letra que foi digitada é analisada para mostrar se ela
-//está ou não na palavra escondida.Caso a letra esteja na palavra,ela aparece
-//na tela,pois na tela são mostrados os valores do vetor LETRACERTA[] e quando
-//a letra digitada é correta,a LETRACERTA[] adquire o valor da palavra armazenada
-//no início do jogo no vetor A[].É preciso criar um SE diferente para cada opção
-//para que possam haver letras repetidas,do contrário a letra só apareceria no
-//vetor que viesse primeiro na ordem de programação,ou seja,a palavra não poderia
+//Nesta parte do jogo ,a letra que foi digitada ï¿½ analisada para mostrar se ela
+//estï¿½ ou nï¿½o na palavra escondida.Caso a letra esteja na palavra,ela aparece
+//na tela,pois na tela sï¿½o mostrados os valores do vetor LETRACERTA[] e quando
+//a letra digitada ï¿½ correta,a LETRACERTA[] adquire o valor da palavra armazenada
+//no inï¿½cio do jogo no vetor A[].ï¿½ preciso criar um SE diferente para cada opï¿½ï¿½o
+//para que possam haver letras repetidas,do contrï¿½rio a letra sï¿½ apareceria no
+//vetor que viesse primeiro na ordem de programaï¿½ï¿½o,ou seja,a palavra nï¿½o poderia
 //ter duas letras iguais que ocorreria um erro.
 se TENTATIVA[J]=A[1] entao
 LETRACERTA[1]<-A[1]
@@ -133,22 +128,22 @@ LETRACERTA[6]<-A[6]
 limpatela
 fimse
 
-//Caso a letra digitada esteja incorreta,o programa irá somar um erro e mostrar
-//na tela quais letras foram usadas e não estão na palavra.
+//Caso a letra digitada esteja incorreta,o programa irï¿½ somar um erro e mostrar
+//na tela quais letras foram usadas e nï¿½o estï¿½o na palavra.
 se (TENTATIVA[J]<>A[1]) e  (TENTATIVA[J]<>A[2]) e (TENTATIVA[J]<>A[3]) e (TENTATIVA[J]<>A[4]) e (TENTATIVA[J]<>A[5]) e (TENTATIVA[J]<>A[6])  entao
 LETRAERRADA[J]<-TENTATIVA[J]
 ERRO<-ERRO+1
 limpatela
 fimse
 
-//Caso o jogador digite todas letras corretamente,ele é parabenizado e o jogo termina.
-//Se o jogador decidir reiniciar o jogo,as variáveis de letras que já estão com valores do
-//jogo antigo,serão substituídas por "-",as variáveis ERRO e RODADA sao zeradas e
-//a variável COMECAR torna-se 2,acionando a condição do laço de repetição posicionado
+//Caso o jogador digite todas letras corretamente,ele ï¿½ parabenizado e o jogo termina.
+//Se o jogador decidir reiniciar o jogo,as variï¿½veis de letras que jï¿½ estï¿½o com valores do
+//jogo antigo,serï¿½o substituï¿½das por "-",as variï¿½veis ERRO e RODADA sao zeradas e
+//a variï¿½vel COMECAR torna-se 2,acionando a condiï¿½ï¿½o do laï¿½o de repetiï¿½ï¿½o posicionado
 //antes da escolha dos nomes.
 se (LETRACERTA[1]=A[1]) e (LETRACERTA[2]=A[2]) e (LETRACERTA[3]=A[3]) e (LETRACERTA[4]=A[4]) e (LETRACERTA[5]=A[5]) e (LETRACERTA[6]=A[6]) entao
-escreval("Parabéns!",JOGADOR2,", você acertou e a palavra era:",A[1],A[2],A[3],A[4],A[5],A[6])
-escreval("Número de erros:",ERRO,"     Número de rodadas:",RODADA)
+escreval("Parabï¿½ns!",JOGADOR2,", vocï¿½ acertou e a palavra era:",A[1],A[2],A[3],A[4],A[5],A[6])
+escreval("Nï¿½mero de erros:",ERRO,"     Nï¿½mero de rodadas:",RODADA)
 escreval("Fim de jogo!")
 fimalgoritmo
 fimse

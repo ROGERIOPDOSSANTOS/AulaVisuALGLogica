@@ -1,15 +1,11 @@
 // Algoritmo : DECIMAL PARA BINARIO
-// Função : Demonstração para o programa VisuAlg
-// Autor : Claudio Morgado de Souza
-// Data : 08/09/2002
-algoritmo "dectobin"
-// Seção de Declarações
+
 var
 x : caracter
 y,d : inteiro
 inicio
-// Seção de Comandos
-escreva("Entre com um número inteiro :")
+// Seï¿½ï¿½o de Comandos
+escreva("Entre com um nï¿½mero inteiro :")
 leia(y)
 d <- y
 enquanto y > 0 faca
@@ -20,6 +16,6 @@ enquanto y > 0 faca
    fimse
    y <- y div 2
 fimenquanto
-escreval("A representação binária de", d, " é ", x)
+escreval("A representaï¿½ï¿½o binï¿½ria de", d, " ï¿½ ", x)
 fimalgoritmo
 

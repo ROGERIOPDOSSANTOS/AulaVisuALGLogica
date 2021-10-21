@@ -1,7 +1,5 @@
 algoritmo "Cronometro"
-// Autor : Wallace S. Maia
-// Data : 02/04/2004
-// Seção de Declarações 
+
 var
    Hora, Minuto, Segundo: inteiro
 

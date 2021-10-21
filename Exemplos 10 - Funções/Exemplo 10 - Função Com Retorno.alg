@@ -1,10 +1,5 @@
 algoritmo "semnome"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Autor: João Victor Santos Pinho Teixeira
-// Data : 07/09/2016
-// Seção de Declarações 
+
 var
 A:inteiro
 B:real
@@ -28,11 +23,11 @@ fimfuncao
 
 funcao retornaCaracter():caracter
 inicio
-retorne "Mãe"
+retorne "Mï¿½e"
 fimfuncaO
 
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 A<-retornaInteiro
 B<-retornaReal
 C<-retornaLogico

@@ -1,11 +1,7 @@
 algoritmo "AVENTURAS MEDIEVAIS"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função :Divirta-se com esse jogo!
-// Autor : João Victor Santos Pinho Teixeira 1ºB
+
 // Data : 07/06/2011
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 INTRO1,INTRO2,INTRO3,INTRO4,INTRO5:inteiro
 ACTION1,ACTION1DOIS,ACTION2,ACTION3,ACTION3DOIS,ACTION4,ACTION4DOIS:inteiro
@@ -17,44 +13,44 @@ ACTION11,ACTION11DOIS,ACTION11TRES,ACTION12TRES,ACTION14DOIS,ACTION14QUATRO:cara
 ACTION14CINCO,ACTION14SEIS:caractere
 NOME,SIGNO1,SIGNO2,SIGNO3,FINAL:caractere
 inicio
-// Seção de Comandos
-//Introdução
+// Seï¿½ï¿½o de Comandos
+//Introduï¿½ï¿½o
 escreval("Bem vindo ao jogo AVENTURAS MEDIEVAIS!")
 escreval("Um mundo de aventuras e desafios o aguarda!")
 escreval("---------------------------------------------------------------------------------")
 escreval("Menu:")
-escreval("1-Ler as instruções.")
+escreval("1-Ler as instruï¿½ï¿½es.")
 escreval("2-Ir ao jogo.")
 escreval("3-Conhecer o autor.")
 leia(INTRO1)
 escolha INTRO1
 caso 1
 limpatela
-escreval("Olá,obrigado por ler as instruções!")
-escreval("O jogo AVENTURAS MEDIEVAIS é baseado na escolha de opções.")
-escreval("Após cada situação,você escolhe o próximo passo a fazer.")
+escreval("Olï¿½,obrigado por ler as instruï¿½ï¿½es!")
+escreval("O jogo AVENTURAS MEDIEVAIS ï¿½ baseado na escolha de opï¿½ï¿½es.")
+escreval("Apï¿½s cada situaï¿½ï¿½o,vocï¿½ escolhe o prï¿½ximo passo a fazer.")
 escreval("Em casos como este:")
-escreval("1-Subir na árvore.")
+escreval("1-Subir na ï¿½rvore.")
 escreval("2-Pegar item.")
 escreval("3-Olhar para baixo.")
-escreval("Então")
-escreval("Basta escolher o número da ação e digitar [enter]")
+escreval("Entï¿½o")
+escreval("Basta escolher o nï¿½mero da aï¿½ï¿½o e digitar [enter]")
 escreval("---------------------------------------------------------------------------------")
 escreval("Em casos como este:")
 escreval("[correr]")
 escreval("[atacar]")
 escreval("[respirar]")
-escreval("Então")
-escreval("Basta digitar o conteúdo dentro das [] sem as[]")
+escreval("Entï¿½o")
+escreval("Basta digitar o conteï¿½do dentro das [] sem as[]")
 escreval("---------------------------------------------------------------------------------")
 escreval("Em casos como este:")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("")
-escreval("Então")
-escreval("A informação foi dada em algum momento no percurso do jogo")
-escreval("então escreva uma palavra.")
+escreval("Entï¿½o")
+escreval("A informaï¿½ï¿½o foi dada em algum momento no percurso do jogo")
+escreval("entï¿½o escreva uma palavra.")
 escreval("---------------------------------------------------------------------------------")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("1-Ir ao jogo.")
 escreval("2-Conhecer o autor.")
 leia(INTRO2)
@@ -63,16 +59,16 @@ caso 1
 escreval("")
 caso 2
 limpatela
-escreval("O autor do jogo AVENTURAS MEDIEVAIS é:")
-escreval("João Victor Santos Pinho Teixeira")
-escreval("TECPUCPR 2011  Série:1º Turma:B")
-escreval("Peço que não mudem o código do jogo sem autorização!")
-escreval("POR FAVOR NÃO MODIFIQUEM O CÓDIGO OU O ENREDO")
-escreval("POIS ESTE JOGO NÃO FOI CRIADO DO DIA PARA A NOITE")
-escreval("Caso saiba de alguém que tentou modificar o código")
+escreval("O autor do jogo AVENTURAS MEDIEVAIS ï¿½:")
+escreval("Joï¿½o Victor Santos Pinho Teixeira")
+escreval("TECPUCPR 2011  Sï¿½rie:1ï¿½ Turma:B")
+escreval("Peï¿½o que nï¿½o mudem o cï¿½digo do jogo sem autorizaï¿½ï¿½o!")
+escreval("POR FAVOR Nï¿½O MODIFIQUEM O Cï¿½DIGO OU O ENREDO")
+escreval("POIS ESTE JOGO Nï¿½O FOI CRIADO DO DIA PARA A NOITE")
+escreval("Caso saiba de alguï¿½m que tentou modificar o cï¿½digo")
 escreval("Favor avisar ao autor =)")
 escreval("E-mail para contato:gamesparati@hotmail.com")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("1-Ir ao jogo.")
 leia(INTRO3)
 escolha INTRO3
@@ -88,47 +84,47 @@ fimalgoritmo
 fimescolha
 caso 3
 limpatela
-escreval("O autor do jogo AVENTURAS MEDIEVAIS é:")
-escreval("João Victor Santos Pinho Teixeira")
-escreval("TECPUCPR 2011  Série:1º Turma:B")
-escreval("Peço que não mudem o código do jogo sem autorização!")
-escreval("POR FAVOR NÃO MODIFIQUEM O CÓDIGO OU O ENREDO")
-escreval("POIS ESTE JOGO NÃO FOI CRIADO DO DIA PARA A NOITE")
-escreval("Caso saiba de alguém que tentou modificar o código")
+escreval("O autor do jogo AVENTURAS MEDIEVAIS ï¿½:")
+escreval("Joï¿½o Victor Santos Pinho Teixeira")
+escreval("TECPUCPR 2011  Sï¿½rie:1ï¿½ Turma:B")
+escreval("Peï¿½o que nï¿½o mudem o cï¿½digo do jogo sem autorizaï¿½ï¿½o!")
+escreval("POR FAVOR Nï¿½O MODIFIQUEM O Cï¿½DIGO OU O ENREDO")
+escreval("POIS ESTE JOGO Nï¿½O FOI CRIADO DO DIA PARA A NOITE")
+escreval("Caso saiba de alguï¿½m que tentou modificar o cï¿½digo")
 escreval("Favor avisar ao autor =)")
 escreval("E-mail para contato:gamesparati@hotmail.com")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("1-Ir ao jogo.")
-escreval("2-Ler as instruções.")
+escreval("2-Ler as instruï¿½ï¿½es.")
 leia(INTRO4)
 escolha INTRO4
 caso 2
 limpatela
-escreval("Olá,obrigado por ler as instruções!")
-escreval("O jogo AVENTURAS MEDIEVAIS é baseado na escolha de opções.")
-escreval("Após cada situação,você escolhe o próximo passo a fazer.")
+escreval("Olï¿½,obrigado por ler as instruï¿½ï¿½es!")
+escreval("O jogo AVENTURAS MEDIEVAIS ï¿½ baseado na escolha de opï¿½ï¿½es.")
+escreval("Apï¿½s cada situaï¿½ï¿½o,vocï¿½ escolhe o prï¿½ximo passo a fazer.")
 escreval("Em casos como este:")
-escreval("1-Subir na árvore.")
+escreval("1-Subir na ï¿½rvore.")
 escreval("2-Pegar item.")
 escreval("3-Olhar para baixo.")
-escreval("Então")
-escreval("Basta escolher o número da ação e digitar [enter]")
+escreval("Entï¿½o")
+escreval("Basta escolher o nï¿½mero da aï¿½ï¿½o e digitar [enter]")
 escreval("---------------------------------------------------------------------------------")
 escreval("Em casos como este:")
 escreval("[correr]")
 escreval("[atacar]")
 escreval("[respirar]")
-escreval("Então")
-escreval("Basta digitar o conteúdo dentro das [] sem as[]")
+escreval("Entï¿½o")
+escreval("Basta digitar o conteï¿½do dentro das [] sem as[]")
 escreval("---------------------------------------------------------------------------------")
 escreval("Em casos como este:")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("")
-escreval("Então")
-escreval("A informação foi dada em algum momento no percurso do jogo")
-escreval("então escreva uma palavra.")
+escreval("Entï¿½o")
+escreval("A informaï¿½ï¿½o foi dada em algum momento no percurso do jogo")
+escreval("entï¿½o escreva uma palavra.")
 escreval("---------------------------------------------------------------------------------")
-escreval("O quê deseja fazer?")
+escreval("O quï¿½ deseja fazer?")
 escreval("1-Ir ao jogo.")
 leia(INTRO5)
 escolha INTRO5
@@ -142,12 +138,12 @@ fimescolha
 caso 2
 escreval("")
 caso 4
-escreval("Tá aqui seu Easter Egg,Rodrigo!hahahah")
+escreval("Tï¿½ aqui seu Easter Egg,Rodrigo!hahahah")
 outrocaso
 escreval("Erro de sintaxe!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
-//Fim Introdução
+//Fim Introduï¿½ï¿½o
 //Nome
 limpatela
 escreval("Qual seu nome?")
@@ -155,57 +151,57 @@ leia(NOME)
 //Fim Nome
 //Pergunta 01
 limpatela
-escreval("Você está na Idade Média e é um guerreiro no século XIII.")
-escreval("É uma noite fria de inverno e você acorda no meio de uma floresta.")
-escreval("Você está sozinho e tem apenas uma espada.")
+escreval("Vocï¿½ estï¿½ na Idade Mï¿½dia e ï¿½ um guerreiro no sï¿½culo XIII.")
+escreval("ï¿½ uma noite fria de inverno e vocï¿½ acorda no meio de uma floresta.")
+escreval("Vocï¿½ estï¿½ sozinho e tem apenas uma espada.")
 escreval(NOME,",o que deseja fazer?")
 escreval("1-Olhar para cima.")
-escreval("2-Procurar uma saída.")
+escreval("2-Procurar uma saï¿½da.")
 escreval("3-Examinar sua Espada.")
 leia(ACTION1)
 escolha ACTION1
 caso 1
 limpatela
-escreval("Quando você olhou para cima,percebeu morcegos")
+escreval("Quando vocï¿½ olhou para cima,percebeu morcegos")
 escreval("se aproximando,eles te atacaram e arrancaram")
 escreval("seus olhos.")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.!")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Você consegue sair da floresta e depara-se com:")
+escreval("Vocï¿½ consegue sair da floresta e depara-se com:")
 escreval("um rio,uma ponte de madeira e um castelo no outro")
 escreval("lado do rio.")
-escreval("Há um aviso na ponte dizendo(Chave cor de mar,para no baú,")
+escreval("Hï¿½ um aviso na ponte dizendo(Chave cor de mar,para no baï¿½,")
 escreval("o poder do tempo encontrar).")
-escreval("O que será que isso significa?")
+escreval("O que serï¿½ que isso significa?")
 caso 3
 limpatela
-escreval("É uma bela Espada!Pode ser usada para quebrar")
-escreval("barragens de madeira ,mas não é recomendado")
-escreval("usá-la para quebrar pedras...")
+escreval("ï¿½ uma bela Espada!Pode ser usada para quebrar")
+escreval("barragens de madeira ,mas nï¿½o ï¿½ recomendado")
+escreval("usï¿½-la para quebrar pedras...")
 escreval(NOME,",o que deseja fazer?")
 escreval("1-Olhar para cima.")
-escreval("2-Procurar uma saída.")
+escreval("2-Procurar uma saï¿½da.")
 leia(ACTION1DOIS)
 escolha ACTION1DOIS
 caso 1
 limpatela
-escreval("Quando você olhou para cima,percebeu morcegos")
+escreval("Quando vocï¿½ olhou para cima,percebeu morcegos")
 escreval("se aproximando,eles te atacaram e arrancaram")
 escreval("seus olhos.")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.!")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Você consegue sair da floresta e depara-se com:")
+escreval("Vocï¿½ consegue sair da floresta e depara-se com:")
 escreval("um rio,uma velha ponte de madeira e um castelo no outro")
 escreval("lado do rio.")
-escreval("Há um aviso na ponte dizendo(Chave cor de mar,para no baú,")
+escreval("Hï¿½ um aviso na ponte dizendo(Chave cor de mar,para no baï¿½,")
 escreval("o poder do tempo encontrar).")
-escreval("(O que será que isso significa?)")
-escreval("(Deve ser um provérbio...)")
+escreval("(O que serï¿½ que isso significa?)")
+escreval("(Deve ser um provï¿½rbio...)")
 outrocaso
 escreval("Erro de sintaxe!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
@@ -216,7 +212,7 @@ fimalgoritmo
 fimescolha
 //Fim Pergunta 01
 //Pergunta 02
-escreval(NOME,",o quê deseja fazer?")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Passar pela velha ponte de madeira.")
 escreval("2-Seguir o trajeto do rio pelas margens.")
 escreval("3-Quebrar a ponte usando a espada.")
@@ -224,20 +220,20 @@ leia(ACTION2)
 escolha ACTION2
 caso 1
 limpatela
-escreval("Você tenta passar pela ponte,mas ela está velha")
+escreval("Vocï¿½ tenta passar pela ponte,mas ela estï¿½ velha")
 escreval("e quebra durante sua passagem,")
-escreval("você cai no rio e morre afogado!")
+escreval("vocï¿½ cai no rio e morre afogado!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Você segue pelo trajeto do rio e encontra uma [chave azul]!")
-escreval("Você encontra uma pequena casa.A casa parece estar deserta")
+escreval("Vocï¿½ segue pelo trajeto do rio e encontra uma [chave azul]!")
+escreval("Vocï¿½ encontra uma pequena casa.A casa parece estar deserta")
 escreval("e abandonada...")
 caso 3
 limpatela
-escreval("Parabéns!Você quebrou a ponte de madeira!")
-escreval("Agora não há como passar para o outro lado...")
+escreval("Parabï¿½ns!Vocï¿½ quebrou a ponte de madeira!")
+escreval("Agora nï¿½o hï¿½ como passar para o outro lado...")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
@@ -246,7 +242,7 @@ fimalgoritmo
 fimescolha
 //Fim Pergunta 02
 //Pergunta 03
-escreval(NOME,",o quê deseja fazer?")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Usar a [chave azul] na porta da casa.")
 escreval("2-Arrombar a porta da casa.")
 escreval("3-Ignorar a casa e continuar seu trajeto.")
@@ -256,24 +252,24 @@ caso 3
 escreval("")
 caso 2
 limpatela
-escreval("Você arromba a porta da casa,mas a casa era de")
+escreval("Vocï¿½ arromba a porta da casa,mas a casa era de")
 escreval("madeira e por ela estar velha:")
-escreval("a casa caiu em cima de você!")
+escreval("a casa caiu em cima de vocï¿½!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 1
 limpatela
-escreval("A chave azul não tem efeito na porta")
-escreval(NOME,",o quê deseja fazer?")
+escreval("A chave azul nï¿½o tem efeito na porta")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Arrombar a porta da casa.")
 escreval("2-Ignorar a casa e continuar o seu trajeto.")
 leia(ACTION3DOIS)
 escolha ACTION3DOIS
 caso 1
 limpatela
-escreval("Você arromba a porta da casa,mas a casa era de")
+escreval("Vocï¿½ arromba a porta da casa,mas a casa era de")
 escreval("madeira e por ela estar velha:")
-escreval("a casa caiu em cima de você!Você morreu")
+escreval("a casa caiu em cima de vocï¿½!Vocï¿½ morreu")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
@@ -289,29 +285,29 @@ fimescolha
 //Fim Pergunta 03
 //Pergunta 04
 limpatela
-escreval("Você continua seu trajeto.")
-escreval("Você encontra uma árvore de aspecto estranho,")
-escreval("um grande buraco no chão")
+escreval("Vocï¿½ continua seu trajeto.")
+escreval("Vocï¿½ encontra uma ï¿½rvore de aspecto estranho,")
+escreval("um grande buraco no chï¿½o")
 escreval("e uma pilha de folhas")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Falar com a árvore.")
-escreval("2-Pular no buraco do chão.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Falar com a ï¿½rvore.")
+escreval("2-Pular no buraco do chï¿½o.")
 escreval("3-Procurar algo na pilha de folhas.")
 leia(ACTION4)
 escolha ACTION4
 caso 1
 limpatela
-escreval("Você deve estar ficando louco...")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Pular no buraco do chão.")
+escreval("Vocï¿½ deve estar ficando louco...")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Pular no buraco do chï¿½o.")
 escreval("2-Procurar algo na pilha de folhas.")
 leia(ACTION4DOIS)
 escolha ACTION4DOIS
 caso 1
 limpatela
-escreval("Você entra em uma caverna escura sob a terra.")
-escreval("De repente você ouve um ruído e...")
-escreval("Você morreu!")
+escreval("Vocï¿½ entra em uma caverna escura sob a terra.")
+escreval("De repente vocï¿½ ouve um ruï¿½do e...")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
@@ -319,9 +315,9 @@ escreval("")
 fimescolha
 caso 2
 limpatela
-escreval("Você entra em uma caverna escura sob a terra.")
-escreval("De repente você ouve um ruído e...")
-escreval("Você morreu!")
+escreval("Vocï¿½ entra em uma caverna escura sob a terra.")
+escreval("De repente vocï¿½ ouve um ruï¿½do e...")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 3
@@ -333,86 +329,86 @@ fimescolha
 //Fim Pergunta 04
 //Pergunta 05
 limpatela
-escreval("Você encontra uma [chave vermelha].")
-escreval("Você continua seu percurso e se depara com um velho e misterioso senhor,")
-escreval("ele está vestindo uma capa escura e tem dentes caninos bem afiados...")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ encontra uma [chave vermelha].")
+escreval("Vocï¿½ continua seu percurso e se depara com um velho e misterioso senhor,")
+escreval("ele estï¿½ vestindo uma capa escura e tem dentes caninos bem afiados...")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Perguntar como consertar a ponte.")
 escreval("2-Perguntar como derrotar Bestas Verdes.")
-escreval("3-Insultá-lo.")
+escreval("3-Insultï¿½-lo.")
 leia(ACTION5)
 escolha ACTION5
 caso 3
 limpatela
-escreval("Você o insulta.")
-escreval("Ele se transforma em um vampiro e morde seu pescoço!")
-escreval("Você morreu!")
+escreval("Vocï¿½ o insulta.")
+escreval("Ele se transforma em um vampiro e morde seu pescoï¿½o!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
 limpatela
-escreval("   -Com licença, o senhor saberia me dizer como derrotar as")
+escreval("   -Com licenï¿½a, o senhor saberia me dizer como derrotar as")
 escreval("Bestas Verdes?")
 escreval("   -Para derrotar as Bestas Verdes,basta usar o comando")
 escreval("[espada] quando uma delas lhe atacar")
 escreval("   -Obrigado!")
-escreval(NOME,",o quê deseja fazer?")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Perguntar como consertar a ponte.")
-escreval("2-Insultá-lo")
-escreval("3-Pular no buraco no chão.")
+escreval("2-Insultï¿½-lo")
+escreval("3-Pular no buraco no chï¿½o.")
 leia(ACTION5TRES)
 escolha ACTION5TRES
 caso 2
 limpatela
-escreval("Você o insulta.")
-escreval("Ele se transforma em um vampiro e morde seu pescoço!")
-escreval("Você morreu!")
+escreval("Vocï¿½ o insulta.")
+escreval("Ele se transforma em um vampiro e morde seu pescoï¿½o!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 3
 limpatela
-escreval("Você entra em uma caverna escura sob a terra.")
-escreval("De repente você ouve um ruído e...")
-escreval("Você morreu!")
+escreval("Vocï¿½ entra em uma caverna escura sob a terra.")
+escreval("De repente vocï¿½ ouve um ruï¿½do e...")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 1
 limpatela
-escreval("   -Com licença,o senhor saberia me dizer o quê eu preciso fazer")
+escreval("   -Com licenï¿½a,o senhor saberia me dizer o quï¿½ eu preciso fazer")
 escreval("para consertar uma ponte?")
-escreval("   -Para consertar a ponte,é preciso usar a bússola do tempo")
+escreval("   -Para consertar a ponte,ï¿½ preciso usar a bï¿½ssola do tempo")
 escreval("para que a ponte volte a ser como ela era...")
-escreval("(Este senhor só pode estar pirado)")
+escreval("(Este senhor sï¿½ pode estar pirado)")
 fimescolha
 caso 1
 limpatela
-escreval("   -Com licença,o senhor saberia me dizer o quê eu preciso fazer")
+escreval("   -Com licenï¿½a,o senhor saberia me dizer o quï¿½ eu preciso fazer")
 escreval("para consertar uma ponte?")
-escreval("   -Para consertar a ponte,é preciso usar a bússola do tempo")
+escreval("   -Para consertar a ponte,ï¿½ preciso usar a bï¿½ssola do tempo")
 escreval("para que a ponte volte a ser como ela era...")
-escreval("(Este senhor só pode estar pirado)")
-escreval(NOME,",o quê deseja fazer?")
+escreval("(Este senhor sï¿½ pode estar pirado)")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Perguntar como derrotar Bestas Verdes.")
-escreval("2-Insultá-lo.")
-escreval("3-Pular no buraco no chão.")
+escreval("2-Insultï¿½-lo.")
+escreval("3-Pular no buraco no chï¿½o.")
 leia(ACTION5DOIS)
 escolha ACTION5DOIS
 caso 2
 limpatela
-escreval("Você o insulta.")
-escreval("Ele se transforma em um vampiro e morde seu pescoço.")
+escreval("Vocï¿½ o insulta.")
+escreval("Ele se transforma em um vampiro e morde seu pescoï¿½o.")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 3
 limpatela
-escreval("Você entra em uma caverna escura sob a terra.")
-escreval("De repente você ouve um ruído e...")
-escreval("Você morreu!")
+escreval("Vocï¿½ entra em uma caverna escura sob a terra.")
+escreval("De repente vocï¿½ ouve um ruï¿½do e...")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 1
 limpatela
-escreval("   -Com licença, o senhor saberia me dizer como derrotar as")
+escreval("   -Com licenï¿½a, o senhor saberia me dizer como derrotar as")
 escreval("Bestas Verdes?")
 escreval("   -Para derrotar as Bestas Verdes,basta usar o comando")
 escreval("[espada] quando uma delas lhe atacar")
@@ -427,21 +423,21 @@ fimalgoritmo
 fimescolha
 //Fim Pergunta 05
 //Pergunta 06
-escreval(NOME,",o quê deseja fazer?")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Agradecer ao velho senhor.")
 escreval("2-Voltar para a ponte.")
 leia(ACTION6)
 escolha ACTION6
 caso 2
 limpatela
-escreval("Está bem.")
+escreval("Estï¿½ bem.")
 caso 1
 limpatela
-escreval("   -Obrigado pelas informações,senhor!")
-escreval("   -Pelos profetas,você é muito educado meu jovem!")
-escreval("   -Pessoas como você merecem ser recompensadas")
-escreval("Você recebe[tocha-de-fogo]}")
-escreval(NOME,",o quê deseja fazer?")
+escreval("   -Obrigado pelas informaï¿½ï¿½es,senhor!")
+escreval("   -Pelos profetas,vocï¿½ ï¿½ muito educado meu jovem!")
+escreval("   -Pessoas como vocï¿½ merecem ser recompensadas")
+escreval("Vocï¿½ recebe[tocha-de-fogo]}")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Voltar para a ponte.")
 escreval("2-Descer no subsolo.")
 leia(ACTION6TRES)
@@ -450,42 +446,42 @@ caso 1
 escreval("")
 caso 2
 limpatela
-escreval("Você desce no subsolo com a [tocha-de-fogo]")
-escreval("Você enconta um baú trancado com um cadeado")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Usar a [tocha de fogo] no baú.")
-escreval("2-Usar [chave vermelha] no baú.")
-escreval("3-Usar [chave azul] no baú")
-escreval("4-Arrombar o baú.")
+escreval("Vocï¿½ desce no subsolo com a [tocha-de-fogo]")
+escreval("Vocï¿½ enconta um baï¿½ trancado com um cadeado")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Usar a [tocha de fogo] no baï¿½.")
+escreval("2-Usar [chave vermelha] no baï¿½.")
+escreval("3-Usar [chave azul] no baï¿½")
+escreval("4-Arrombar o baï¿½.")
 leia(ACTION6QUATRO)
 escolha ACTION6QUATRO
 caso 1
 limpatela
-escreval("A [tocha-de-fogo] apagou e agora você")
-escreval("está no escuro. Você escuta um ruído e...")
-escreval("Você morreu!")
+escreval("A [tocha-de-fogo] apagou e agora vocï¿½")
+escreval("estï¿½ no escuro. Vocï¿½ escuta um ruï¿½do e...")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Você tenta abrir o baú com a [chave vermelha]")
-escreval("Você sente uma energia e de repente...")
-escreval("Tudo explode! Você morreu! ")
+escreval("Vocï¿½ tenta abrir o baï¿½ com a [chave vermelha]")
+escreval("Vocï¿½ sente uma energia e de repente...")
+escreval("Tudo explode! Vocï¿½ morreu! ")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 3
 limpatela
-escreval("Ao aproximar a chave do baú, você sente uma energia")
-escreval("Você utiliza a [chave azul],abre o baú e encontra:")
-escreval("[bússola do tempo]")
-escreval("Para usar a bússola do tempo use o comando[bussola].")
+escreval("Ao aproximar a chave do baï¿½, vocï¿½ sente uma energia")
+escreval("Vocï¿½ utiliza a [chave azul],abre o baï¿½ e encontra:")
+escreval("[bï¿½ssola do tempo]")
+escreval("Para usar a bï¿½ssola do tempo use o comando[bussola].")
 caso 4
 limpatela
-escreval("Você tenta arrombar o baú.")
-escreval("Uma força mística o ataca,e você para de respirar!")
-escreval("Você escuta uma voz dizendo")
-escreval("     -Nunca cause danos à objetos mágicos!Muahaha!")
-escreval("Você morreu!")
+escreval("Vocï¿½ tenta arrombar o baï¿½.")
+escreval("Uma forï¿½a mï¿½stica o ataca,e vocï¿½ para de respirar!")
+escreval("Vocï¿½ escuta uma voz dizendo")
+escreval("     -Nunca cause danos ï¿½ objetos mï¿½gicos!Muahaha!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
@@ -505,43 +501,43 @@ fimescolha
 //Fim Pergunta 06
 //Pergunta 07
 limpatela
-escreval("Você segue seu caminho de volta para a ponte.")
-escreval("Você se depara com uma Besta Verde")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ segue seu caminho de volta para a ponte.")
+escreval("Vocï¿½ se depara com uma Besta Verde")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("[atacar]")
 escreval("[fugir]")
-escreval("[lançarfeitiço]")
+escreval("[lanï¿½arfeitiï¿½o]")
 leia(ACTION7)
 escolha ACTION7
 caso "espada"
-escreval("Parabéns!Você matou a Besta Verde!")
+escreval("Parabï¿½ns!Vocï¿½ matou a Besta Verde!")
 caso "atacar"
 limpatela
-escreval("Você tenta atacar a Besta Verde usando as mãos,")
-escreval("mas você falha e é morto pela Besta Verde!")
-escreval("Você morreu!")
+escreval("Vocï¿½ tenta atacar a Besta Verde usando as mï¿½os,")
+escreval("mas vocï¿½ falha e ï¿½ morto pela Besta Verde!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso "fugir"
 limpatela
-escreval("Você tenta fugir,mas a Besta Verde é mais rápida que você!")
+escreval("Vocï¿½ tenta fugir,mas a Besta Verde ï¿½ mais rï¿½pida que vocï¿½!")
 escreval("Ela te agarra e te mata!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
-caso "lançarfeitiço"
+caso "lanï¿½arfeitiï¿½o"
 limpatela
-escreval("Você tenta lançar feiticço,mas você é um guerreiro!")
-escreval("Você não tem varinha e nem poderes mágicos...")
+escreval("Vocï¿½ tenta lanï¿½ar feiticï¿½o,mas vocï¿½ ï¿½ um guerreiro!")
+escreval("Vocï¿½ nï¿½o tem varinha e nem poderes mï¿½gicos...")
 escreval("A Besta te agarra e te mata!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
 limpatela
-escreval("Você tenta derrotar a Besta Verde,mas não consegue...")
+escreval("Vocï¿½ tenta derrotar a Besta Verde,mas nï¿½o consegue...")
 escreval("A Besta te agarra e te mata!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
@@ -551,53 +547,53 @@ fimescolha
 //Fim Pergunta 07
 //Pergunta 08
 limpatela
-escreval("Você retorna à antiga ponte quebrada")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ retorna ï¿½ antiga ponte quebrada")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("[pularponte]")
 escreval("[bussola]")
 escreval("[atravessar]")
 leia(ACTION8)
 se(ACTION8="pularponte")entao
 limpatela
-escreval("Você tenta pular a ponte,mas ela é muito longa...")
-escreval("Você caiu na água.")
-escreval("Você morreu!")
+escreval("Vocï¿½ tenta pular a ponte,mas ela ï¿½ muito longa...")
+escreval("Vocï¿½ caiu na ï¿½gua.")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 senao
 se(ACTION8="atravessar")entao
 limpatela
-escreval("Você tenta passar pela ponte,mas ela está velha")
+escreval("Vocï¿½ tenta passar pela ponte,mas ela estï¿½ velha")
 escreval("e quebra durante sua passagem,")
-escreval("você cai no rio e morre afogado!")
+escreval("vocï¿½ cai no rio e morre afogado!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 senao
 se(ACTION8="bussola") e (ACTION6QUATRO=3)entao
 limpatela
-escreval("Você usa os poderes da bússola do tempo e a ponte volta a ser")
+escreval("Vocï¿½ usa os poderes da bï¿½ssola do tempo e a ponte volta a ser")
 escreval("como ela era antes!")
-escreval("Então,você atravessa a ponte!")
+escreval("Entï¿½o,vocï¿½ atravessa a ponte!")
 senao
 se(ACTION8="bussola") e (ACTION6QUATRO<>3)entao
 limpatela
-escreval("Você não possui o item [bussola do tempo].")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ nï¿½o possui o item [bussola do tempo].")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("[pularponte]")
 escreval("[atravessar]")
 leia(ACTION8DOIS)
 se(ACTION8DOIS="pularponte")entao
 limpatela
-escreval("Você tenta pular a ponte,mas ela é muito longa...")
-escreval("Você caiu na água.")
-escreval("Você morreu!")
+escreval("Vocï¿½ tenta pular a ponte,mas ela ï¿½ muito longa...")
+escreval("Vocï¿½ caiu na ï¿½gua.")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 senao
 limpatela
-escreval("Você tenta passar pela ponte,mas ela está velha")
+escreval("Vocï¿½ tenta passar pela ponte,mas ela estï¿½ velha")
 escreval("e quebra durante sua passagem,")
-escreval("você cai no rio e morre afogado!")
+escreval("vocï¿½ cai no rio e morre afogado!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimse
@@ -608,11 +604,11 @@ fimse
 //Fim pergunta 08
 //Pergunta 09
 limpatela
-escreval("Você vê plantas de mexendo,talvez seja só sua imaginação...")
+escreval("Vocï¿½ vï¿½ plantas de mexendo,talvez seja sï¿½ sua imaginaï¿½ï¿½o...")
 escreval("Parece que as plantas estavam atacando um rato...")
-escreval("Você chega no outro lado da ponte e depara-se com a muralha inicial")
-escreval("Há uma placa dizendo (Castelo de Muslávia)")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ chega no outro lado da ponte e depara-se com a muralha inicial")
+escreval("Hï¿½ uma placa dizendo (Castelo de Muslï¿½via)")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Dar a volta pela esquerda da muralha.")
 escreval("2-Tentar pular a muralha.")
 escreval("3-Dar a volta pela direita da muralha.")
@@ -620,32 +616,32 @@ leia(ACTION9)
 escolha ACTION9
 caso 2
 limpatela
-escreval("Você consegue pular a muralha!")
-escreval("Mas a muralha era muito alta e quando você caiu")
-escreval("você quebrou suas pernas!")
+escreval("Vocï¿½ consegue pular a muralha!")
+escreval("Mas a muralha era muito alta e quando vocï¿½ caiu")
+escreval("vocï¿½ quebrou suas pernas!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 caso 3
 limpatela
-escreval("Você encontra um [apito]")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ encontra um [apito]")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Tentar pular a muralha")
 escreval("2-Dar a volta pela esquerda da muralha")
 leia(ACTION9QUATRO)
 escolha ACTION9QUATRO
 caso 1
 limpatela
-escreval("Você consegue pular a muralha!")
-escreval("Mas a muralha era muito alta e quando você caiu")
-escreval("você quebrou suas pernas!")
+escreval("Vocï¿½ consegue pular a muralha!")
+escreval("Mas a muralha era muito alta e quando vocï¿½ caiu")
+escreval("vocï¿½ quebrou suas pernas!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Você encontra um pequeno portão!")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Pular o portão.")
-escreval("2-Usar [chave vermelha] no portão.")
+escreval("Vocï¿½ encontra um pequeno portï¿½o!")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Pular o portï¿½o.")
+escreval("2-Usar [chave vermelha] no portï¿½o.")
 escreval("3-Ler a placa.")
 leia(ACTION9CINCO)
 escolha ACTION9CINCO
@@ -654,30 +650,30 @@ limpatela
 escreval("A chave Funcionou!")
 caso 1
 limpatela
-escreval("Você consegue pular o portão!")
-escreval("Mas tropeça e cai no chão!")
-escreval("Você se depara com cachorros")
+escreval("Vocï¿½ consegue pular o portï¿½o!")
+escreval("Mas tropeï¿½a e cai no chï¿½o!")
+escreval("Vocï¿½ se depara com cachorros")
 escreval("ferozes que te atacaram!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 3
 limpatela
 escreval("CUIDADO COM OS CACHORROS FEROZES!")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Usar [chave vermelha] no portão.")
-escreval("2-Pular o portão.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Usar [chave vermelha] no portï¿½o.")
+escreval("2-Pular o portï¿½o.")
 leia(ACTION9SEIS)
 escolha ACTION9SEIS
 caso 1
 escreval("A chave funcionou!")
 caso 2
 limpatela
-escreval("Você consegue pular o portão!")
-escreval("Mas tropeça e cai no chão!")
-escreval("Você se depara com cachorros")
+escreval("Vocï¿½ consegue pular o portï¿½o!")
+escreval("Mas tropeï¿½a e cai no chï¿½o!")
+escreval("Vocï¿½ se depara com cachorros")
 escreval("ferozes que te atacaram!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
@@ -694,20 +690,20 @@ fimalgoritmo
 fimescolha
 caso 1
 limpatela
-escreval("Você encontra um pequeno portão!")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Pular o portão")
-escreval("2-Usar [chave vermelha] no portão.")
+escreval("Vocï¿½ encontra um pequeno portï¿½o!")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Pular o portï¿½o")
+escreval("2-Usar [chave vermelha] no portï¿½o.")
 escreval("3-Ler a placa.")
 leia(ACTION9TRES)
 escolha ACTION9TRES
 caso 1
 limpatela
-escreval("Você consegue pular o portão!")
-escreval("Mas tropeça e cai no chão!")
-escreval("Você se depara com cachorros")
+escreval("Vocï¿½ consegue pular o portï¿½o!")
+escreval("Mas tropeï¿½a e cai no chï¿½o!")
+escreval("Vocï¿½ se depara com cachorros")
 escreval("ferozes que te atacaram!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
@@ -716,18 +712,18 @@ escreval("A chave funcionou!")
 caso 3
 limpatela
 escreval("CUIDADO COM OS CACHORROS FEROZES!")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Usar [chave vermelha] no portão.")
-escreval("2-Pular o portão.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Usar [chave vermelha] no portï¿½o.")
+escreval("2-Pular o portï¿½o.")
 leia(ACTION9DOIS)
 escolha ACTION9DOIS
 caso 2
 limpatela
-escreval("Você consegue pular o portão!")
-escreval("Mas tropeça e cai no chão!")
-escreval("Você se depara com cachorros")
+escreval("Vocï¿½ consegue pular o portï¿½o!")
+escreval("Mas tropeï¿½a e cai no chï¿½o!")
+escreval("Vocï¿½ se depara com cachorros")
 escreval("ferozes que te atacaram!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 1
@@ -748,36 +744,36 @@ fimescolha
 //Pergunta 10
 limpatela
 escreval("A [chave vermelha] funcionou!")
-escreval("Você encontra cachorros furiosos!")
-escreval("O quê deseja fazer?")
+escreval("Vocï¿½ encontra cachorros furiosos!")
+escreval("O quï¿½ deseja fazer?")
 leia(ACTION10)
 escreval("[apito]")
 escreval("[espada]")
 escreval("[fugir]")
 se(ACTION10="apito") e (ACTION9=3)entao
 limpatela
-escreval("Você utiliza o apito e acalma os cachorros!")
+escreval("Vocï¿½ utiliza o apito e acalma os cachorros!")
 senao
 se(ACTION10="apito") e (ACTION9<>3)entao
 limpatela
-escreval("Você não possui o item [apito]!")
+escreval("Vocï¿½ nï¿½o possui o item [apito]!")
 escreval("Os cachorros te atacaram!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 senao
 se(ACTION10="espada")entao
 limpatela
-escreval("Você tenta usar a espada,mas os cachorros")
+escreval("Vocï¿½ tenta usar a espada,mas os cachorros")
 escreval("te atacaram muito rapidamente!")
-escreval("Você morreu!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 senao
 limpatela
-escreval("Você tenta fugir,mas os cachorros são rápidos")
-escreval("e te alcançam!Eles te atacaram.")
-escreval("Você morreu!")
+escreval("Vocï¿½ tenta fugir,mas os cachorros sï¿½o rï¿½pidos")
+escreval("e te alcanï¿½am!Eles te atacaram.")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO")
 fimalgoritmo
 fimse
@@ -785,31 +781,31 @@ fimse
 fimse
 //Fim pergunta 10
 //Pergunta 11
-escreval("Você passa pelos cachorros e encontra uma porta.")
-escreval("Há uma barragem de madeira fechando a porta.")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ passa pelos cachorros e encontra uma porta.")
+escreval("Hï¿½ uma barragem de madeira fechando a porta.")
+escreval(NOME,",o quï¿½ deseja fazer?")
 leia(ACTION11)
 escolha ACTION11
 caso "espada"
 limpatela
-escreval("Você conseguiu quebrar a barragem!")
+escreval("Vocï¿½ conseguiu quebrar a barragem!")
 caso "bussola"
 limpatela
-escreval("Você usou a [bussola] e fez a madeira das barragens envelhecerem!")
-escreval("Você dá um golpe de espada e abre o caminho!")
+escreval("Vocï¿½ usou a [bussola] e fez a madeira das barragens envelhecerem!")
+escreval("Vocï¿½ dï¿½ um golpe de espada e abre o caminho!")
 outrocaso
 limpatela
-escreval("Tentando passar pela barragem,você deixou")
-escreval("o [apito] cair no chão!")
-escreval("os cachorros te atacaram e você morreu!")
+escreval("Tentando passar pela barragem,vocï¿½ deixou")
+escreval("o [apito] cair no chï¿½o!")
+escreval("os cachorros te atacaram e vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
 //Fim pergunta 11
 //Pergunta 12
-escreval("Você entra pela porta e,agora você está dentro do castelo,em uma sala.")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Olhar pelo telescópio.")
+escreval("Vocï¿½ entra pela porta e,agora vocï¿½ estï¿½ dentro do castelo,em uma sala.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Olhar pelo telescï¿½pio.")
 escreval("2-Sair da sala.")
 escreval("3-Examinar a sala.")
 leia(ACTION12)
@@ -818,17 +814,17 @@ caso 2
 escreval("")
 caso 1
 limpatela
-escreval("Você olha pelo telescópio e vê signos em forma de constelações.")
-escreval(NOME,",o quê deseja fazer?")
+escreval("Vocï¿½ olha pelo telescï¿½pio e vï¿½ signos em forma de constelaï¿½ï¿½es.")
+escreval(NOME,",o quï¿½ deseja fazer?")
 escreval("1-Examinar a sala.")
 escreval("2-Sair da sala.")
 leia(ACTION12DOIS)
 escolha ACTION12DOIS
 caso 1
 limpatela
-escreval("Você examina a sala e vê quadros nas paredes.")
-escreval("Nos quadros,muitos homens estão combatendo aranhas gigantes")
-escreval("usando machados e um arqueiro  está atacando com flechas de fogo.")
+escreval("Vocï¿½ examina a sala e vï¿½ quadros nas paredes.")
+escreval("Nos quadros,muitos homens estï¿½o combatendo aranhas gigantes")
+escreval("usando machados e um arqueiro  estï¿½ atacando com flechas de fogo.")
 caso 2
 escreval("")
 outrocaso
@@ -836,17 +832,17 @@ escreval("Erro de sintaxe!Pressione ESC+F9 para reiniciar.")
 fimescolha
 caso 3
 limpatela
-escreval("Você examina a sala e vê quadros nas paredes.")
-escreval("Nos quadros,muitos homens estão combatendo aranhas gigantes")
-escreval("usando machados e um arqueiro  está atacando com flechas de fogo.")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Olhar pelo telescópio.")
+escreval("Vocï¿½ examina a sala e vï¿½ quadros nas paredes.")
+escreval("Nos quadros,muitos homens estï¿½o combatendo aranhas gigantes")
+escreval("usando machados e um arqueiro  estï¿½ atacando com flechas de fogo.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Olhar pelo telescï¿½pio.")
 escreval("2-Sair da sala.")
 leia(ACTION12TRES)
 escolha ACTION12TRES
 caso 1
 limpatela
-escreval("Você olha pelo telescópio e vê signos em forma de constelações.")
+escreval("Vocï¿½ olha pelo telescï¿½pio e vï¿½ signos em forma de constelaï¿½ï¿½es.")
 caso 2
 escreval("")
 outrocaso
@@ -855,33 +851,33 @@ fimescolha
 fimescolha
 limpatela
 se(ACTION12DOIS=1)entao
-escreval("Você examina a sala e vê quadros nas paredes.")
-escreval("Nos quadros,muitos homens estão combatendo aranhas gigantes")
-escreval("usando machados e um arqueiro  está atacando com flechas de fogo.")
+escreval("Vocï¿½ examina a sala e vï¿½ quadros nas paredes.")
+escreval("Nos quadros,muitos homens estï¿½o combatendo aranhas gigantes")
+escreval("usando machados e um arqueiro  estï¿½ atacando com flechas de fogo.")
 senao
 se(ACTION12TRES=1)entao
-escreval("Você olha pelo telescópio e vê signos em forma de constelações.")
+escreval("Vocï¿½ olha pelo telescï¿½pio e vï¿½ signos em forma de constelaï¿½ï¿½es.")
 fimse
 fimse
 //Fim pergunta 12
 //Pergunta 13
-escreval("Você sai da sala.")
-escreval("Você está em um corredor,há três portas na sua frente.")
+escreval("Vocï¿½ sai da sala.")
+escreval("Vocï¿½ estï¿½ em um corredor,hï¿½ trï¿½s portas na sua frente.")
 escreval(NOME,",em qual porta deseja entrar?")
-escreval("1-Porta da esquerda(Há um desenho de uma planta na porta).")
-escreval("2-Porta central(Há um desenho de um escudo na porta).")
-escreval("3-Porta direita(Não há desenhos na porta).")
+escreval("1-Porta da esquerda(Hï¿½ um desenho de uma planta na porta).")
+escreval("2-Porta central(Hï¿½ um desenho de um escudo na porta).")
+escreval("3-Porta direita(Nï¿½o hï¿½ desenhos na porta).")
 leia(ACTION13)
 escolha ACTION13
 caso 1
 limpatela
-escreval("Você abre a porta e é atacado por plantas carnívoras).")
-escreval("Você morreu!")
+escreval("Vocï¿½ abre a porta e ï¿½ atacado por plantas carnï¿½voras).")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Ao entrar na sala,você encontra um grande arsenal de armas.")
+escreval("Ao entrar na sala,vocï¿½ encontra um grande arsenal de armas.")
 escreval("Deseja escolher alguma arma?(SIM/NAO)")
 leia(ACTION13DOIS)
 escolha ACTION13DOIS
@@ -890,52 +886,52 @@ escreval("")
 caso "SIM"
 escreval("Qual arma deseja escolher?")
 escreval("[arco-e-flecha]")
-escreval("[lança]")
+escreval("[lanï¿½a]")
 escreval("[machado]")
 leia(ACTION12TRES)
 escolha ACTION12TRES
 caso "arco-e-flecha"
 limpatela
-escreval("Você adquiriu[arco-e-flecha]")
-caso "lança"
+escreval("Vocï¿½ adquiriu[arco-e-flecha]")
+caso "lanï¿½a"
 limpatela
-escreval("Você adquiriu [lança]!")
+escreval("Vocï¿½ adquiriu [lanï¿½a]!")
 caso "machado"
 limpatela
-escreval("Você adquiriu [machado]!")
+escreval("Vocï¿½ adquiriu [machado]!")
 outrocaso
 escreval("Erro de sintaxe!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
 fimescolha
-escreval("Você saiu da sala.")
-escreval(NOME,",o quê deseja fazer?")
-escreval("1-Porta da esquerda(Há um desenho de uma planta na porta.")
-escreval("2-Porta direita(Não há desenhos na porta).")
+escreval("Vocï¿½ saiu da sala.")
+escreval(NOME,",o quï¿½ deseja fazer?")
+escreval("1-Porta da esquerda(Hï¿½ um desenho de uma planta na porta.")
+escreval("2-Porta direita(Nï¿½o hï¿½ desenhos na porta).")
 leia(ACTION12QUATRO)
 escolha ACTION12QUATRO
 caso 1
 limpatela
-escreval("Você abre a porta e é atacado por plantas carnívoras.")
-escreval("Você morreu!")
+escreval("Vocï¿½ abre a porta e ï¿½ atacado por plantas carnï¿½voras.")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso 2
 limpatela
-escreval("Ao entrar na porta,você encontra")
-escreval("um armário fechado com um cadeado.")
-escreval("No armário há uma mensagem,está escrito:")
-escreval("Seres idênticos,vindos do fundo do oceano,sempre castos.")
-escreval("A senha desse armário tem relação com o céu")
-escreval("(Digite as três palavras sem acento).")
+escreval("Ao entrar na porta,vocï¿½ encontra")
+escreval("um armï¿½rio fechado com um cadeado.")
+escreval("No armï¿½rio hï¿½ uma mensagem,estï¿½ escrito:")
+escreval("Seres idï¿½nticos,vindos do fundo do oceano,sempre castos.")
+escreval("A senha desse armï¿½rio tem relaï¿½ï¿½o com o cï¿½u")
+escreval("(Digite as trï¿½s palavras sem acento).")
 leia(SIGNO1)
 leia(SIGNO2)
 leia(SIGNO3)
 se(SIGNO1<>"gemeos")ou(SIGNO2<>"peixes")ou(SIGNO3<>"virgem")entao
 limpatela
-escreval("Combinação incorreta!")
-escreval("Uma armadilha é acionada e você é esmagado na parede!")
-escreval("Você morreu!")
+escreval("Combinaï¿½ï¿½o incorreta!")
+escreval("Uma armadilha ï¿½ acionada e vocï¿½ ï¿½ esmagado na parede!")
+escreval("Vocï¿½ morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
@@ -951,30 +947,30 @@ fimescolha
 //Fim pergunta 13
 //Pergunta 14
 limpatela
-escreval("Parece que está muito escuro...")
-escreval("Você ouve passos rastejando nas paredes!")
-escreval(NOME,",o quê deseja fazer?")
-se(ACTION12TRES="lança")entao
+escreval("Parece que estï¿½ muito escuro...")
+escreval("Vocï¿½ ouve passos rastejando nas paredes!")
+escreval(NOME,",o quï¿½ deseja fazer?")
+se(ACTION12TRES="lanï¿½a")entao
 leia(ACTION14)
 escolha ACTION14
-caso "lança"
-escreval("Você tentou usar a [lança] no escuro e errou o alvo!")
-escreval("Você foi atacado por criaturas e morreu!")
+caso "lanï¿½a"
+escreval("Vocï¿½ tentou usar a [lanï¿½a] no escuro e errou o alvo!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso "arco-e-flecha"
-escreval("Você não tem esse item!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Vocï¿½ nï¿½o tem esse item!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso "machado"
-escreval("Você não tem esse item!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Vocï¿½ nï¿½o tem esse item!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
-escreval("Esse item não teve efeito aqui!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Esse item nï¿½o teve efeito aqui!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
@@ -983,23 +979,23 @@ se(ACTION12TRES="machado")entao
 leia(ACTION14DOIS)
 escolha ACTION14DOIS
 caso "machado"
-escreval("Você tentou usar o [machado] no escuro e errou o alvo!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Vocï¿½ tentou usar o [machado] no escuro e errou o alvo!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 caso "arco-e-flecha"
-escreval("Você não tem esse item!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Vocï¿½ nï¿½o tem esse item!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
-caso "lança"
-escreval("Você não tem esse item!")
-escreval("Você foi atacado por criaturas e morreu!")
+caso "lanï¿½a"
+escreval("Vocï¿½ nï¿½o tem esse item!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 outrocaso
-escreval("Esse item não teve nenhum efeito no escuro!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Esse item nï¿½o teve nenhum efeito no escuro!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
@@ -1008,24 +1004,24 @@ se(ACTION12TRES="arco-e-flecha")entao
 leia(ACTION14QUATRO)
 escolha ACTION14QUATRO
 caso "arco-e-flecha"
-escreval("Deseja usar mais algum item,além do [arco-e-flecha]?")
+escreval("Deseja usar mais algum item,alï¿½m do [arco-e-flecha]?")
 leia(ACTION14CINCO)
 escolha ACTION14CINCO
 caso "tocha-de-fogo"
-escreval("Você atacou as aranhas com flechas flamejantes!")
-escreval("Você matou as aranhas!")
+escreval("Vocï¿½ atacou as aranhas com flechas flamejantes!")
+escreval("Vocï¿½ matou as aranhas!")
 fimescolha
 caso "tocha-de-fogo"
-escreval("Deseja usar mais algum item,além do [tocha-de-fogo]?")
+escreval("Deseja usar mais algum item,alï¿½m do [tocha-de-fogo]?")
 leia(ACTION14SEIS)
 escolha ACTION14SEIS
 caso "arco-e-flecha"
-escreval("Você atacou as aranhas com flechas flamejantes!")
-escreval("Você matou as aranhas!")
+escreval("Vocï¿½ atacou as aranhas com flechas flamejantes!")
+escreval("Vocï¿½ matou as aranhas!")
 fimescolha
 outrocaso
-escreval("Esse item não teve efeito aqui!")
-escreval("Você foi atacado por criaturas e morreu!")
+escreval("Esse item nï¿½o teve efeito aqui!")
+escreval("Vocï¿½ foi atacado por criaturas e morreu!")
 escreval("FIM DE JOGO!Pressione ESC+F9 para reiniciar.")
 fimalgoritmo
 fimescolha
@@ -1034,12 +1030,12 @@ fimse
 fimse
 //Fim pergunta 14
 //Pergunta 15
-escreval("Parabéns,",NOME,"!")
-escreval("Você conseguiu concluir o jogo AVENTURAS MEDIEVAIS!")
+escreval("Parabï¿½ns,",NOME,"!")
+escreval("Vocï¿½ conseguiu concluir o jogo AVENTURAS MEDIEVAIS!")
 escreval("Obrigado por jogar!")
 escreval("Se gostou do jogo,divulgue para seus amigos!Obrigado!")
-escreval("Créditos:")
-escreval("O CRIADOR_____________João Victor Santos Pinho Teixeira")
+escreval("Crï¿½ditos:")
+escreval("O CRIADOR_____________Joï¿½o Victor Santos Pinho Teixeira")
 escreval("BLOG DO CRIADOR___________www.games-parati.blogspot.com")
 escreval("_______________________________________________________")
 escreval("_______________________________________________________")

@@ -1,8 +1,5 @@
 algoritmo "countsort"
-// Função : Demonstração do método COUNTSORT de ordenação.
-// Autor : Cláudio Morgado de Souza
-// Data : 08/03/2003
-// Seção de Declarações
+
 var
 v1 : vetor[1..100] de inteiro
 v2 : vetor[1..20] de inteiro
@@ -19,7 +16,7 @@ fimpara
 para j de 1 ate 20 faca
    v1[v2[j]] <- v1[v2[j]] + 1
 fimpara
-// Inicia a contagem do tempo para a ordenação
+// Inicia a contagem do tempo para a ordenaï¿½ï¿½o
 cronometro on
 k <- 1
 para i de 1 ate 100 faca

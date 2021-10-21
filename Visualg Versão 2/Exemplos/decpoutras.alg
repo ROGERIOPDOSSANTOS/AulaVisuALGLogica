@@ -1,8 +1,5 @@
 algoritmo "Decimal para Outras Bases"
-// Função :
-// Autor :
-// Data : 14/4/2003
-// Seção de Declarações 
+
 Var
    opcao, res : caracter
    digitos : vetor[1..16] de caracter
@@ -12,12 +9,12 @@ funcao menu : caracter
 var opcao : caracter
 inicio
    limpatela
-   escreval( "Programa de Conversão de Bases")
-   escreval( "Da Base 10 para Binária, Octal ou Hexa")
+   escreval( "Programa de Conversï¿½o de Bases")
+   escreval( "Da Base 10 para Binï¿½ria, Octal ou Hexa")
    escreval( "--------------------------------------")
    escreval
-   escreval( "Opções")
-   escreval( "   B - Binária")
+   escreval( "Opï¿½ï¿½es")
+   escreval( "   B - Binï¿½ria")
    escreval( "   O - Octal")
    escreval( "   H - Hexa")
    escreval( "   F - Fim")
@@ -30,7 +27,7 @@ inicio
 fimfuncao
 
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 repita
    escolha menu
    caso "B"

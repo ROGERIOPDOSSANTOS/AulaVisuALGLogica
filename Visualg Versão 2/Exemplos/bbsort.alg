@@ -1,7 +1,4 @@
-// Algoritmo BUBBLESORT
-// Função : Demonstração para o programa VisuAlg
-// Autor : Claudio Morgado de Souza
-// Data : 08/09/2002
+
 algoritmo "Bubble Sort"
 dos
 var
@@ -14,7 +11,7 @@ aleatorio 0,100,3
 para a de 1 ate 10 faca
    leia(x[a])
 fimpara
-// Ordenação
+// Ordenaï¿½ï¿½o
 para a de 1 ate 10 faca
    para b de 1 ate 9 faca
       se x[b] > x[b+1] entao
@@ -24,7 +21,7 @@ para a de 1 ate 10 faca
       fimse
    fimpara
 fimpara
-// Impressão dos dados ordenados
+// Impressï¿½o dos dados ordenados
 para a de 1 ate 10 faca
    escreval(a:3," - ", x[a] : 10 : 3)
 fimpara

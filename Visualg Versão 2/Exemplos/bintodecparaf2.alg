@@ -1,15 +1,12 @@
-// Algoritmo : BINARIO PARA DECIMAL USANDO PARA...FACA
-// Função : Demonstração para o programa VisuAlg
-// Autor : Claudio Morgado de Souza
-// Data : 08/09/2002
+
 algoritmo "dectobin"
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 x : caracter
 posicao,d : inteiro
 inicio
-// Seção de Comandos
-escreva("Entre com um número binario :")
+// Seï¿½ï¿½o de Comandos
+escreva("Entre com um nï¿½mero binario :")
 leia(x)
 d <- 0
 para posicao de compr(x) ate 1 passo -1 faca
@@ -17,6 +14,6 @@ para posicao de compr(x) ate 1 passo -1 faca
       d <- d + int(exp(2,compr(x)-posicao))
    fimse
 fimpara
-escreval("A representação decimal de ", x, " é ", d)
+escreval("A representaï¿½ï¿½o decimal de ", x, " ï¿½ ", d)
 fimalgoritmo
 

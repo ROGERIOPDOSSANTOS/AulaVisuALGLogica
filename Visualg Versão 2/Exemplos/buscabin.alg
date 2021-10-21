@@ -1,23 +1,18 @@
 algoritmo "buscabin"
-// Função : Exemplo de Busca Binaria
-// Autor : Cláudio Morgado de Souza
-// Data : 15/09/2002
-// Força a entrada em modo DOS
-dos
-// Seção de Declarações
+
 var
    li,ls,j,vbusca, ind : inteiro
    v : vetor[1..20] de inteiro
    achou : logico
 
 inicio
-// Preenche um vetor com 20 números aleatórios, entre 0 e 100
+// Preenche um vetor com 20 nï¿½meros aleatï¿½rios, entre 0 e 100
 aleatorio 0, 100
 para j de 1 ate 20 faca
    leia(v[j])
 fimpara
 aleatorio off
-// Ordena o vetor, usando Bubblesort e reaproveitando as variáveis
+// Ordena o vetor, usando Bubblesort e reaproveitando as variï¿½veis
 para li de 1 ate 20 faca
    para ls de 1 ate 19 faca
       se v[ls] > v[ls+1] entao
@@ -27,7 +22,7 @@ para li de 1 ate 20 faca
       fimse
    fimpara
 fimpara
-// Busca binária
+// Busca binï¿½ria
 repita
    escreva( "Valor para busca (ESC ou menor que 0 termina) : ")
    leia( vbusca)
@@ -48,9 +43,9 @@ repita
          fimse
       fimenquanto
       se achou entao
-         escreval( "Valor encontrado na posição ", ind)
+         escreval( "Valor encontrado na posiï¿½ï¿½o ", ind)
       senao
-         escreval( "O valor ", vbusca, " não está na lista.")
+         escreval( "O valor ", vbusca, " nï¿½o estï¿½ na lista.")
       fimse
       // Pausa o programa. Tecle F9 neste ponto para continuar
       pausa

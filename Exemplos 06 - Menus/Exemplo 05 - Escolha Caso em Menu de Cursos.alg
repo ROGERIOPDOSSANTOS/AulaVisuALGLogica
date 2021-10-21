@@ -1,33 +1,28 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função :  Informa Quanto de Desconto o Aluno recebe de acordo com o Curso
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
+
 // Comandos usados: Escolha Caso
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 NOME:caractere
 CURSO:inteiro
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 escreval("Digite o nome do aluno:")
 leia(NOME)
 escreval("Qual o seu curso?")
-escreval("1-ADMNISTRAÇÃO.")
+escreval("1-ADMNISTRAï¿½ï¿½O.")
 escreval("2-CONTABILIDADE.")
-escreval("3-INFORMÁTICA.")
+escreval("3-INFORMï¿½TICA.")
 leia(CURSO)
 escolha CURSO
 caso 1
    escreval(NOME,",tem desconto de 5% na sua mensalidade de R$400,00")
-   escreval(",portanto pagará R$380,00.")
+   escreval(",portanto pagarï¿½ R$380,00.")
 caso 2
    escreval(NOME,",tem desconto de 8% na sua mensalidade de R$380,00")
-   escreval(", portanto pagará R$349,60.")
+   escreval(", portanto pagarï¿½ R$349,60.")
 caso 3
    escreval(NOME,",tem desconto de 10% na sua mensalidade de R$420,00")
-   escreval(", portanto pagará R$378,00.")
+   escreval(", portanto pagarï¿½ R$378,00.")
 fimescolha
 fimalgoritmo

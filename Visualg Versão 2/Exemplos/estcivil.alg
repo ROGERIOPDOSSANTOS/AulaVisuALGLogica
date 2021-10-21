@@ -1,17 +1,12 @@
 // Algoritmo : ESTCIVIL
-// Função : Calcula a distribuição dos estados civis numa lista de 20 valores
-//          O estado civil está codificado da seguinte maneira:
-//          C - Casado, S - Solteiro, V - Viúvo
-// Exemplifica o uso do comando escolha...caso...fimescolha
-// Autor : Cláudio morgado de Souza
-// Data : 14/09/2002
+
 algoritmo "estcivil"
-// Seção de Declarações 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es 
 var
    ec : caracter
    x,cs,cc,cv : numerico
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 cs <- 0
 cv <- 0
 cc <- 0
@@ -31,5 +26,5 @@ para x de 1 ate 20 faca
 fimpara
 escreval("Solteiros : ", cs)
 escreval("Casados : ", cc)
-escreval("Viúvos : ", cv)
+escreval("Viï¿½vos : ", cv)
 fimalgoritmo

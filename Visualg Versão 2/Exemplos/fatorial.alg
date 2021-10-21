@@ -1,15 +1,11 @@
 algoritmo "semnome"
-// Função : Demonstrar a capacidade de recursividade do Visualg versão 2.0
-//          bem como o uso de variáveis locais
-// Autor : Cláudio Morgado de Souza
-// Data : 29/12/2003
-// Seção de Declarações 
+
 var valor : inteiro
 
 procedimento obtervalor
 var x : inteiro
 inicio
-escreva("Digite um número:")
+escreva("Digite um nï¿½mero:")
 leia(x)
 valor <- x
 fimprocedimento
@@ -26,6 +22,6 @@ fimfuncao
 inicio
 // Corpo principal do programa
 obtervalor
-escreva("O fatorial de ",valor," é ",fatorial(valor))
+escreva("O fatorial de ",valor," ï¿½ ",fatorial(valor))
 fimalgoritmo
 

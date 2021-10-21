@@ -1,17 +1,10 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função : Soma 3 Valores e Informa se algum é Acima da Média
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
-// Comandos usados:  Se ,Atribuição de Valores e Divisão
-// Seção de Declarações
+
 var
 A,B,C,SOMA,CONT:inteiro
 MEDIA:real
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 escreval("Digite um valor:")
 leia(A)
 escreval("Digite um valor:")
@@ -20,18 +13,18 @@ escreval("Digite um valor:")
 leia(C)
 SOMA<-A+B+C
 MEDIA<-SOMA/3
-escreval("A média dos valores lidos é:",MEDIA)
+escreval("A mï¿½dia dos valores lidos ï¿½:",MEDIA)
 se (A>MEDIA) entao
    CONT<-CONT+1
-   escreval("O valor A é acima da média!")
+   escreval("O valor A ï¿½ acima da mï¿½dia!")
 fimse
 se (B>MEDIA) entao
    CONT<-CONT+1
-   escreval("O valor B é acima da média!")
+   escreval("O valor B ï¿½ acima da mï¿½dia!")
 fimse
 se (C>MEDIA) entao
    CONT<-CONT+1
-   escreval("O valor C é acima da média!")
+   escreval("O valor C ï¿½ acima da mï¿½dia!")
 fimse
 se(CONT>1)entao
    escreval("Valores aceitos!")

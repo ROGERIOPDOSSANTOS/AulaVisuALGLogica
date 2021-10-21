@@ -1,8 +1,5 @@
 algoritmo "semnome"
-// Função : Demonstrar o uso das varias funcoes de caracteres do Visualg 2.0
-// Autor :
-// Data : 31/12/2003
-// Seção de Declarações 
+
 var t : caracter
 
 funcao replicar(s : caracter ; n : inteiro ) : caracter

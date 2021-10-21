@@ -1,16 +1,11 @@
 algoritmo "buscabinr"
-// Função : Exemplo de Busca Binaria Recursiva, Procedimentos, etc.
-// Autor : Cláudio Morgado de Souza
-// Data : 15/09/2002
-// Força a entrada em modo DOS
-dos
-// Seção de Declarações
+
 var
    v : vetor[1..20] de inteiro
    vbusca, ind : inteiro
 
 funcao  buscabinrec( vbusca, li,ls  : inteiro ;  var ind: inteiro ) : logico
-// Busca binária
+// Busca binï¿½ria
 var achou : logico
 inicio
    achou <- falso
@@ -42,7 +37,7 @@ fimprocedimento
 procedimento ordena
 var a,b : inteiro
 inicio
-// Ordena o vetor, usando Bubblesort e reaproveitando as variáveis
+// Ordena o vetor, usando Bubblesort e reaproveitando as variï¿½veis
 para a de 1 ate 20 faca
    para b de 1 ate 19 faca
       se v[b] > v[b+1] entao
@@ -55,7 +50,7 @@ fimprocedimento
 procedimento carregavetor
 var j : inteiro
 inicio
-// Preenche o vetor com 20 números inteiros aleatórios, entre 0 e 100
+// Preenche o vetor com 20 nï¿½meros inteiros aleatï¿½rios, entre 0 e 100
 para j de 1 ate 20 faca
    v[j] <- randi(100)
 fimpara
@@ -78,9 +73,9 @@ repita
    leia( vbusca)
    se vbusca >= 0 entao
       se buscabinrec(vbusca, 1,20,ind) entao
-         escreval( "Valor encontrado na posição ", ind)
+         escreval( "Valor encontrado na posiï¿½ï¿½o ", ind)
       senao
-         escreval( "O valor ", vbusca, " não está na lista.")
+         escreval( "O valor ", vbusca, " nï¿½o estï¿½ na lista.")
       fimse
    fimse
 ate vbusca < 0

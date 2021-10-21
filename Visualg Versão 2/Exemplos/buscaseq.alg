@@ -1,8 +1,5 @@
 algoritmo "semnome"
-// Função : Busca Seqüencial - Demonstração do Visualg
-// Autor : Cláudio Morgado de Souza
-// Data : 01/05/03
-dos
+
 var
    j,k, vb : inteiro
    v : vetor[1..10] de inteiro
@@ -22,7 +19,7 @@ inicio
 preenchevetor
 escreva("Entre com o valor de busca (ESC termina) :")
 leia(vb)
-// Busca Seqüencial
+// Busca Seqï¿½encial
 j <- 1
 repita
    se v[j] = vb entao
@@ -32,7 +29,7 @@ repita
    fimse
 ate (achou=verdadeiro) ou (j>10)
 se achou entao
-   escreval("Achei ", vb , " na posição ", j)
+   escreval("Achei ", vb , " na posiï¿½ï¿½o ", j)
 senao
    escreval("Nao achei.")
 fimse

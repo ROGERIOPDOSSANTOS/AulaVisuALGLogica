@@ -1,16 +1,11 @@
 algoritmo "Aulas de VisuALG"
-// Visite nosso site: onedaycode.com
-// Inscreva-se em nosso canal: www.youtube.com/onedaycode
-// Acompanhe nossa Página: www.facebook.com/onedaycode/
-// Função : Calcula tabuada com um limite
-// Autor : João Victor Santos Pinho Teixeira
-// Data : 23/02/2015
-// Comandos usados: Repita Até
-// Seção de Declarações
+
+// Comandos usados: Repita Atï¿½
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
 VALOR,CONTADOR:inteiro
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 CONTADOR<-1
 escreval("Digite um valor:")
 leia(VALOR)
