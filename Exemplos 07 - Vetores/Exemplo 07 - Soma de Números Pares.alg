@@ -1,6 +1,5 @@
 algoritmo "Aulas de VisuALG"
 //variavel composta
-
 var
 A: vetor [1..10] de inteiro
 I,SOMA:inteiro
