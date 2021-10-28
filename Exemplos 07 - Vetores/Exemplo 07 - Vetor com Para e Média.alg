@@ -5,7 +5,7 @@ A: vetor[0..3] de inteiro
 I:inteiro
 SOMA:real
 inicio
-// Secao de Comandos
+
 i<-1
 para i de 0 ate 3 faca
    leia(A[I])

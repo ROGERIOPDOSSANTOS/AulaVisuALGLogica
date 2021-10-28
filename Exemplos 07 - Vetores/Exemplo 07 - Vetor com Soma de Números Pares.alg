@@ -4,10 +4,10 @@ var
 A:vetor[1..100] de inteiro
 I,SOMA:inteiro
 inicio
-// Se��o de Comandos
+
 I<-1
 para I de 1 ate 100 faca
-   escreval("Digite um n�mero")
+   escreval("Digite um numero")
    leia(A[I])
    se(A[I] MOD 2=0)entao
       SOMA<-SOMA+A[I]
