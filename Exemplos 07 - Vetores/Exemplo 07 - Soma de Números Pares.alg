@@ -5,7 +5,6 @@ A: vetor [1..10] de inteiro
 I,SOMA:inteiro
 
 inicio
-// Secao de Comandos
 
 para I de 1 ate 10 faca
    escreval("Digite um numero:",I)
