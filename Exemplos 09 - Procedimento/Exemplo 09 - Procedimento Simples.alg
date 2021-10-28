@@ -10,7 +10,7 @@ escreval("*--------------------*")
 fimprocedimento
 
 inicio
-// Se��o de Comandos 
+
 DESENHA
 escreval(A)
 fimalgoritmo

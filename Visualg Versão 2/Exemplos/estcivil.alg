@@ -1,12 +1,12 @@
 // Algoritmo : ESTCIVIL
 
 algoritmo "estcivil"
-// Se��o de Declara��es 
+
 var
    ec : caracter
    x,cs,cc,cv : numerico
 inicio
-// Se��o de Comandos
+
 cs <- 0
 cv <- 0
 cc <- 0

@@ -1,8 +1,5 @@
 algoritmo "semnome"
-// Função : Demonstrar a passagem de parametros por referencia no Visualg versao 2.0
-// Autor : Cláudio M. Souza
-// Data : 31/12/2003
-// Seção de Declarações 
+
 var
 a,b : inteiro
 
@@ -15,7 +12,7 @@ inicio
 fimprocedimento
 
 inicio
-// Seção de Comandos 
+// Seï¿½ï¿½o de Comandos 
 a <- 3
 b <- 4
 escreval("A : ", a, " B : ", b)

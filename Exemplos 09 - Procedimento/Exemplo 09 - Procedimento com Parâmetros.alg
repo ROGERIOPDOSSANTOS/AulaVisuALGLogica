@@ -5,7 +5,7 @@ A,B,n,m,res:inteiro
 
 procedimento soma (x,y: inteiro)
 inicio
-// res � vari�vel global
+
 res <- x + y
 fimprocedimento
 

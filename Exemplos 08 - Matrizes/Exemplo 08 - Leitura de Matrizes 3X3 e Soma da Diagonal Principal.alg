@@ -4,7 +4,7 @@ var
 matriz: vetor[1..3,1..3] de inteiro
 LINHA,COLUNA,SOMA:inteiro
 inicio
-// Se��o de Comandos
+
 para LINHA de 1 ate 3 faca
      para COLUNA de 1 ate 3 faca
           leia(matriz[LINHA,COLUNA])
@@ -22,5 +22,5 @@ para LINHA de 1 ate 3 faca
           fimse
      fimpara
 fimpara
-escreval("A soma da diagonal principal �:",SOMA)
+escreval("A soma da diagonal principal e:",SOMA)
 fimalgoritmo

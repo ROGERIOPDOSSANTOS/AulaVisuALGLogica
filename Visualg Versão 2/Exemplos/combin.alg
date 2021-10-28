@@ -3,7 +3,7 @@ algoritmo "semnome"
 var
    n,p,t, u : inteiro
 inicio
-// Se��o de Comandos 
+
 escreva("N�mero : ")
 leia(n)
 escreva("Taxa : ")

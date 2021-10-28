@@ -3,7 +3,7 @@ algoritmo "Aulas de VisuALG"
 var
 X,Y,Z:real
 inicio
-// Se��o de Comandos
+
 escreval("Digite a medidas do lado A")
 leia(X)
 escreval("Digite a medida do lado B")

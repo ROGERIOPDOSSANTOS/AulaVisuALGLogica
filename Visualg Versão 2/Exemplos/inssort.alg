@@ -1,13 +1,11 @@
 algoritmo "sort_insercao"
-// Função : Algoritmo de SORT por inserção
-// Autor : Cláudio Morgado de Souza
-// Data : 7/6/2003
-// Seção de Declarações 
+// Funï¿½ï¿½o : Algoritmo de SORT por inserï¿½ï¿½o
+
 var
    v : vetor [1..20] de inteiro
    j,k,i,temp : inteiro
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
    aleatorio 1,100
    eco off
    para j de 1 ate 20 faca

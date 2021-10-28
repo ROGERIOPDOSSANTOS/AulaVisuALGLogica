@@ -4,7 +4,7 @@ var
 ALTURA,PESOIDEALH,PESOIDEALM:real
 SEXO:caractere
 inicio
-// Se��o de Comandos
+
 escreval("Digite sua altura")
 leia(ALTURA)
 escreval("Voc� � homem ou mulher?")

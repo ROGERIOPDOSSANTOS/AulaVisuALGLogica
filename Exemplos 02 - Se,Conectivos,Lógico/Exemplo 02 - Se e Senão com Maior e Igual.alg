@@ -3,23 +3,23 @@ algoritmo "Aulas de VisuALG"
 var
 IDADE:inteiro
 inicio
-// Seção de Comandos
+
 escreval("Digite sua idade em anos inteiros:")
 leia(IDADE)
 se (IDADE >= 0) e (IDADE <=10)entao
-   escreval("Você é uma criança!")
+   escreval("Vocï¿½ ï¿½ uma crianï¿½a!")
 senao
-   escreval("Você não é uma criança!")
+   escreval("Vocï¿½ nï¿½o ï¿½ uma crianï¿½a!")
 fimse
 se (IDADE >= 11) e (IDADE <= 19)entao
-   escreval("Você é um(a) jovem!")
+   escreval("Vocï¿½ ï¿½ um(a) jovem!")
 senao
-   escreval("Você não é um(a) jovem!")
+   escreval("Vocï¿½ nï¿½o ï¿½ um(a) jovem!")
 fimse
 se(IDADE > 19)entao
-   escreval("Você é um(a) adulto")
+   escreval("Vocï¿½ ï¿½ um(a) adulto")
 senao
-   escreval("Você não é um(a) adulto!")
+   escreval("Vocï¿½ nï¿½o ï¿½ um(a) adulto!")
 
 fimse
 fimalgoritmo

@@ -4,7 +4,7 @@ var
 DADO:inteiro
 SN:caractere
 inicio
-// Se��o de Comandos 
+
 escreval("O valor do dado �:")
 aleatorio 1,6
 leia(DADO)

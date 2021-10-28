@@ -5,7 +5,7 @@ var
    PRECO:real
    QUANTIDADE:inteiro
 inicio
-// Se��o de Comandos 
+ 
    escreval("Digite a mercadoria:")
    leia(MERCADORIA)
    escreval("Digite o pre�o:")

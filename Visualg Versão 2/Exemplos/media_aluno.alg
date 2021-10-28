@@ -1,8 +1,6 @@
 algoritmo "semnome"
-// Função : Verifica a nota
-// Autor : Marcio Roberto Cordeiro
-// Data : 30/6/2004
-// Seção de Declarações 
+// Funï¿½ï¿½o : Verifica a nota
+
 var
    nome_aluno : caracter
    n1,n2,n3,n4 : real

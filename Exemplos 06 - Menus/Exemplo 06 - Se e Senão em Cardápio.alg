@@ -1,12 +1,12 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados:
-// Se��o de Declara��es
+
 var
 HAMBURGER,MISTOQUENTE,BATATAFRITA,REFRIGERANTE,CERVEJA,PINGADO:real
 QUANTIDADE,PRODUTO:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Card�pio:")
 escreval("1-HAMB�RGER    /R$2.00")
 escreval("2-MISTO QUENTE /R$1.50")

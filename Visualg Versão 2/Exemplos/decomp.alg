@@ -3,7 +3,7 @@ algoritmo "decompor"
 var j, valor : inteiro
     p, ex : vetor [1..10] de inteiro
 inicio
-// Se��o de Comandos
+
 p[1] <- 2
 p[2] <- 3
 p[3] <- 5

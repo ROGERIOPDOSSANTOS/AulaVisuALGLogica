@@ -4,7 +4,7 @@ var
 x : caracter
 y,d : inteiro
 inicio
-// Se��o de Comandos
+
 escreva("Entre com um n�mero inteiro :")
 leia(y)
 d <- y

@@ -11,7 +11,7 @@ fimpara
 fimprocedimento
 
 inicio
-// Se��o de Comandos
+
 CONTARA
 CONTARA
 CONTARA

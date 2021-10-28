@@ -1,13 +1,10 @@
 algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 31/03/2006
-// Seção de Declarações 
+
 var
 Hex1, Hex2, SomaHex, MostraVaiUm : caractere
 i, c, vaium, d1, d2, d3 : inteiro
 inicio
-// Seção de Comandos 
+// Seï¿½ï¿½o de Comandos 
 escreva("Digite um numero HEXA:")
 leia (Hex1)
 escreva("Digite outro numero HEXA:")

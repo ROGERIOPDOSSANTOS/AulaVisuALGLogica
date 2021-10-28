@@ -1,7 +1,7 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados: Escolha Caso,Para,Limpatela e Vetores.
-// Se��o de Declara��es
+
 var
 JOGADOR1,JOGADOR2:caractere
 A: vetor[1..6] de caractere
@@ -10,7 +10,7 @@ LETRAERRADA,LETRAS: vetor[1..8] de caractere
 LETRACERTA: vetor[1..6] de caractere
 I,J,OPCAO,OPCAO2,ERRO,PONTOS,RODADA,COMECAR,RECOMECAR:inteiro
 inicio
-// Se��o de Comandos
+
 //O menu inicial.
 //Traz a op��o de jogar,ler as instru��es ou sair do jogo,de acordo com o n�mero
 //inserido pelo usu�rio.

@@ -4,7 +4,7 @@ var
 A,B,C,SOMA,CONT:inteiro
 MEDIA:real
 inicio
-// Se��o de Comandos
+
 escreval("Digite um valor:")
 leia(A)
 escreval("Digite um valor:")

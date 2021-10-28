@@ -3,7 +3,7 @@ algoritmo "semnome"
 var
 time:inteiro
 inicio
-// Se��o de Comandos 
+
 time<-200
 
 escreval("O-----")

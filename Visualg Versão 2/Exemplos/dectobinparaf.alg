@@ -1,12 +1,12 @@
 // Algoritmo : DECIMAL PARA BINARIO USANDO PARA...FACA
 
 algoritmo "dectobin"
-// Se��o de Declara��es
+
 var
 x : caracter
 j,y,d : inteiro
 inicio
-// Se��o de Comandos
+
 escreva("Entre com um n�mero inteiro :")
 leia(y)
 d <- y

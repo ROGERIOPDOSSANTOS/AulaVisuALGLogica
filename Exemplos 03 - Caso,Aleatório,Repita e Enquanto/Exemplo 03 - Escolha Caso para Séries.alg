@@ -1,11 +1,11 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados:  Escolha Caso
-// Se��o de Declara��es
+
 var
 IDADE:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Digite a idade do aluno(acima de 12):")
 leia(IDADE)
 escolha IDADE

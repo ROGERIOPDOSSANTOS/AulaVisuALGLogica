@@ -1,11 +1,11 @@
 
 algoritmo "dectobin"
-// Se��o de Declara��es
+
 var
 x : caracter
 posicao,d : inteiro
 inicio
-// Se��o de Comandos
+
 escreva("Entre com um n�mero binario :")
 leia(x)
 d <- 0

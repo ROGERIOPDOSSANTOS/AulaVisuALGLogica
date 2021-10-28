@@ -1,13 +1,11 @@
-// Algoritmo : Raiz quadrada por aproximação
-// Função :
-// Autor :
-// Data : 12/09/2002
+// Algoritmo : Raiz quadrada por aproximaï¿½ï¿½o
+
 algoritmo "RQPAprox"
-// Seção de Declarações
+
 var
  x, raiz, li, ls, mult, dif : real
 inicio
-// Seção de Comandos
+
 escreva("Digite um numero maior que um : ")
 leia(x)
 se x > 1 entao
@@ -32,8 +30,8 @@ se x > 1 entao
          dif <- -dif
       fimse
    fimenquanto
-   escreval("A raiz quadrada calculada de ", x : 10: 5 , " é ", raiz : 10 : 5 )
-   escreval("A função raiz quadrada de ", x : 10: 5 , " é ", raizq(x) : 10 : 5 )
+   escreval("A raiz quadrada calculada de ", x : 10: 5 , " ï¿½ ", raiz : 10 : 5 )
+   escreval("A funï¿½ï¿½o raiz quadrada de ", x : 10: 5 , " ï¿½ ", raizq(x) : 10 : 5 )
 senao
    escreval("Falei maior que um... ")
 fimse

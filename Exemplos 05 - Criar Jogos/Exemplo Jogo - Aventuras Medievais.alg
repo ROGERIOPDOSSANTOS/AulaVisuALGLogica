@@ -1,7 +1,7 @@
 algoritmo "AVENTURAS MEDIEVAIS"
 
 // Data : 07/06/2011
-// Se��o de Declara��es
+
 var
 INTRO1,INTRO2,INTRO3,INTRO4,INTRO5:inteiro
 ACTION1,ACTION1DOIS,ACTION2,ACTION3,ACTION3DOIS,ACTION4,ACTION4DOIS:inteiro
@@ -13,7 +13,7 @@ ACTION11,ACTION11DOIS,ACTION11TRES,ACTION12TRES,ACTION14DOIS,ACTION14QUATRO:cara
 ACTION14CINCO,ACTION14SEIS:caractere
 NOME,SIGNO1,SIGNO2,SIGNO3,FINAL:caractere
 inicio
-// Se��o de Comandos
+
 //Introdu��o
 escreval("Bem vindo ao jogo AVENTURAS MEDIEVAIS!")
 escreval("Um mundo de aventuras e desafios o aguarda!")

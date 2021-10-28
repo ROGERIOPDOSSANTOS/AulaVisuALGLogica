@@ -15,7 +15,7 @@ fimprocedimento
 
 
 inicio
-// Se��o de Comandos 
+
 aumentaUm
 aumentaUm
 aumentaUm

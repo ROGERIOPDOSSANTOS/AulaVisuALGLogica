@@ -1,11 +1,11 @@
 
 algoritmo "dectobin"
-// Se��o de Declara��es
+
 var
 x : caracter
 j,posicao,expoente,d : inteiro
 inicio
-// Se��o de Comandos
+
 escreva("Entre com um n�mero binario :")
 leia(x)
 d <- 0
@@ -17,6 +17,6 @@ para j de 1 ate compr(x) faca
    fimse
    expoente <- expoente + 1
 fimpara
-escreval("A representa��o decimal de ", x, " � ", d)
+escreval("A representacao decimal de ", x, " e ", d)
 fimalgoritmo
 

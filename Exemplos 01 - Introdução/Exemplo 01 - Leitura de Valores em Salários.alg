@@ -5,7 +5,7 @@ SALARIO:real
 NOME:caractere
 HORAS:inteiro
 inicio
-// Se��o de Comandos 
+
 escreval("Qual o nome do instrutor?")
 leia(NOME)
 escreval("Quantas horas ele trabalha por dia?")

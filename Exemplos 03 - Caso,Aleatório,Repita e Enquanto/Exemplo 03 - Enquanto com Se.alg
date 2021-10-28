@@ -1,11 +1,11 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados: Enquanto, Diferente,Se e Atribui��o de Valores
-// Se��o de Declara��es
+
 var
 MAIOR,MENOR,X,CONT,SOMA:inteiro
 inicio
-// Se��o de Comandos
+
 X<-1
 enquanto (X<>0) faca
    escreval("Digite um valor:")

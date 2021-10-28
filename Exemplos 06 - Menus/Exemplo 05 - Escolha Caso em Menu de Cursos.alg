@@ -1,12 +1,12 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados: Escolha Caso
-// Se��o de Declara��es
+
 var
 NOME:caractere
 CURSO:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Digite o nome do aluno:")
 leia(NOME)
 escreval("Qual o seu curso?")

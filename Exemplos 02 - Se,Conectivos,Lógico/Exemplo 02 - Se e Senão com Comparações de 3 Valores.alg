@@ -3,8 +3,8 @@ algoritmo "Aulas de VisuALG"
 var
 A,B,C:inteiro
 inicio
-// Seção de Comandos
-escreval("Digite os três valores:")
+
+escreval("Digite os trï¿½s valores:")
 leia(A,B,C)
 se(A>B) e (A>C) e (B>C)entao
    escreval("Os valores em ordem crescente ficam na ordem:",C,B,A)

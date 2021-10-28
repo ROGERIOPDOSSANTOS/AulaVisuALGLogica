@@ -1,13 +1,11 @@
-// Algoritmo : MENOR DE 3 USANDO 2 VARIÁVEIS (!)
-// Função : Demonstração para o programa VisuAlg
-// Autor : Cláudio M. de Souza
-// Data : 09/09/2002
+// Algoritmo : MENOR DE 3 USANDO 2 VARIï¿½VEIS (!)
+
 algoritmo "menorde3"
-// Seção de Declarações 
+
 var Menor, V1 : real
 inicio
-// Seção de Comandos 
-escreval( "Este programa calcula o menor de três números digitados.")
+
+escreval( "Este programa calcula o menor de trï¿½s nï¿½meros digitados.")
 escreva("Qual o primeiro valor ? ")
 leia(Menor)
 escreva("Qual o segundo valor ? ")

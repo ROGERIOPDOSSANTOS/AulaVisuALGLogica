@@ -1,7 +1,7 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados: Para,Procedimento,Se e Sen�o, Matrizes,Aleat�rio e Enquanto
-// Se��o de Declara��es
+
 
 var
 TABULEIRO, MASCARA: vetor[1..10,1..10] de caractere

@@ -1,7 +1,5 @@
 algoritmo "Jogo da Velha"
 
-// Se��o de Declara��es
-
 var
 TABULEIRO,MASCARA: vetor [1..3,1..3] de caractere
 POSICAO: vetor [1..9] de inteiro

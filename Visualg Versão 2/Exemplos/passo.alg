@@ -1,11 +1,9 @@
 algoritmo "semnome"
-// Função : Ilustrar o uso do comando para..faca com cláusula PASSO
-// Autor :
-// Data : 18/11/2002
-// Seção de Declarações 
+// Funï¿½ï¿½o : Ilustrar o uso do comando para..faca com clï¿½usula PASSO
+
 var x : inteiro
 inicio
-// Seção de Comandos
+
 para x de 10 ate 1 passo -1 faca
    escreval(x)
 fimpara

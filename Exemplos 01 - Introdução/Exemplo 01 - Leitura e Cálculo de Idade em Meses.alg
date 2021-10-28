@@ -3,7 +3,7 @@ algoritmo "Aulas de VisuALG"
 var
 MESATUAL,ANOATUAL,MESNASCIMENTO,ANONASCIMENTO:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Em que m�s estamos?(04,08,12)")
 leia(MESATUAL)
 escreval("Em que ano estamos?(2000,2010,1990)")

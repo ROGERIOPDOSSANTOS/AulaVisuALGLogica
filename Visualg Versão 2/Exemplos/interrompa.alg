@@ -1,8 +1,6 @@
 algoritmo "interrompa"
-// Função : Demonstrar o uso dos comandos interrompa e fimrepita
-// Autor :
-// Data : 04/01/2004
-// Seção de Declarações 
+// Funï¿½ï¿½o : Demonstrar o uso dos comandos interrompa e fimrepita
+
 var x : inteiro
 inicio
 x <- 0
@@ -10,11 +8,11 @@ repita
    x <- x + 1
    escreva(x)
    se x = 10 entao
-      interrompa // não estruturado, mas usado por alguns autores...
+      interrompa // nï¿½o estruturado, mas usado por alguns autores...
    fimse
 fimrepita
 escreval()
-// O trecho acima é o mesmo que:
+// O trecho acima ï¿½ o mesmo que:
 x <- 0
 repita
    x <- x + 1

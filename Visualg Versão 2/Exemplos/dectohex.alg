@@ -1,12 +1,12 @@
 // Algoritmo : DECIMAL PARA HEXA
 
 algoritmo "dectohex"
-// Se��o de Declara��es
+
 var
    x : caracter
    y,d : inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Programa de Convers�o Decimal para Hexadecimal")
 escreva("Entre com um n�mero inteiro:")
 leia(y)

@@ -1,12 +1,10 @@
 algoritmo "populacao"
-// Função : Demonstrar o uso de procedimentos com passagem de parâmetros por
-//          referência para simular uma função
-// Autor : Cláudio Morgado de Souza
-// Data : 04/04/2004
+// Funï¿½ï¿½o : Demonstrar o uso de procedimentos com passagem de parï¿½metros por
+
 var popa,popb,anos : real
 
 funcao fincrpop(pop,taxa : real ) : real
-// Retorna o incremento de TAXA% sobre a população
+// Retorna o incremento de TAXA% sobre a populaï¿½ï¿½o
 inicio
    retorne pop + pop * taxa
 fimfuncao
@@ -20,12 +18,12 @@ fimprocedimento
 inicio
    // A cidade A tem 100.000 hab., e a cidade B, 60.000
    // A populacao de A cresce 10% por ano, e a de B, 13%
-   // Em quantos anos a populacao de A ficará maior que a de B?
+   // Em quantos anos a populacao de A ficarï¿½ maior que a de B?
     popa <- 100000
     popb <- 60000
     anos <- 0
     repita
-       // Incremento da populacao - usando FUNÇÃO
+       // Incremento da populacao - usando FUNï¿½ï¿½O
        popa <- fincrpop(popa,0.10)
        popb <- fincrpop(popb,0.13)
        anos <- anos + 1

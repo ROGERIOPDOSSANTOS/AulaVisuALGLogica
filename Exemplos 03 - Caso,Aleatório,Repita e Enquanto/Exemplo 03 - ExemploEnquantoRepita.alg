@@ -1,10 +1,10 @@
 algoritmo "semnome"
 
-// Se��o de Declara��es 
+
 var
 valor1,valor2:inteiro
 inicio
-// Se��o de Comandos 
+
 valor1<-0
 enquanto (valor1<10)faca
    escreval(valor1)

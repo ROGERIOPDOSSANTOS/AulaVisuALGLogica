@@ -3,7 +3,7 @@ algoritmo "Aulas de VisuALG"
 var
 ANO:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Digite um ano:")
 leia(ANO)
 se (ANO MOD 4 = 0) entao

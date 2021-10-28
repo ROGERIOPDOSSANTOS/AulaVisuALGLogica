@@ -23,11 +23,11 @@ fimfuncao
 
 funcao retornaCaracter():caracter
 inicio
-retorne "M�e"
+retorne "Mae"
 fimfuncaO
 
 inicio
-// Se��o de Comandos
+
 A<-retornaInteiro
 B<-retornaReal
 C<-retornaLogico

@@ -1,11 +1,11 @@
 algoritmo "Aulas de VisuALG"
 
 // Comandos usados: Se,MOD e Para Contador de X At� Y Fa�a
-// Se��o de Declara��es
+
 var
 SUP,INF:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Digite um limite superior:")
 leia(SUP)
 escreval("Digite um limite inferior:")

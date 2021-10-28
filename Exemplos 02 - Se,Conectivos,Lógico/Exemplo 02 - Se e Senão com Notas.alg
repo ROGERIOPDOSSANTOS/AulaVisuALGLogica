@@ -3,7 +3,7 @@ algoritmo "Aulas de VisuALG"
 var
 NOTA:real
 inicio
-// Se��o de Comandos
+
 escreval("Digite o n�mero:")
 leia(NOTA)
 se(NOTA>=0) e (NOTA<=10)entao

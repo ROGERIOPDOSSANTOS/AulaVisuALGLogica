@@ -4,7 +4,7 @@ var
 VALORCOMPRA,UM,DOIS,TRES,QUATRO:real
 PAGAMENTO:inteiro
 inicio
-// Se��o de Comandos
+
 escreval("Qual foi o valor total da compra em R$?")
 leia(VALORCOMPRA)
 UM<-VALORCOMPRA-(VALORCOMPRA/100*10)

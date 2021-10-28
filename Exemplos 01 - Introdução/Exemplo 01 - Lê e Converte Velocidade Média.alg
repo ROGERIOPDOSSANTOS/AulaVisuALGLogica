@@ -3,7 +3,7 @@ algoritmo "Aulas de VisuALG"
 var
 TEMPO,DISTANCIA:real
 inicio
-// Se��o de Comandos 
+
 escreval("Qual foi a dist�ncia percorrida pelo ve�culo?(km)")
 leia(DISTANCIA)
 escreval("Quanto tempo foi levado?(horas)")
