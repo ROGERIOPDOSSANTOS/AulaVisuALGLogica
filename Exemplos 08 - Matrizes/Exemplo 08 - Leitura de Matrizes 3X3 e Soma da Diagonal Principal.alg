@@ -4,7 +4,7 @@ var
 matriz: vetor[1..3,1..3] de inteiro
 LINHA,COLUNA,SOMA:inteiro
 
-inicio
+inicio 
 
 para LINHA de 1 ate 3 faca
      para COLUNA de 1 ate 3 faca
