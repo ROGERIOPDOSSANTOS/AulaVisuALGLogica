@@ -4,9 +4,9 @@ var
 TEMPO,DISTANCIA:real
 inicio
 
-escreval("Qual foi a dist�ncia percorrida pelo ve�culo?(km)")
+escreval("Qual foi a distancia percorrida pelo veciulo?(km)")
 leia(DISTANCIA)
 escreval("Quanto tempo foi levado?(horas)")
 leia(TEMPO)
-escreval("A velocidade m�dia do ve�culo foi de:",DISTANCIA/TEMPO,"km por hora")
+escreval("A velocidade media do veiculo foi de:",DISTANCIA/TEMPO,"km por hora")
 fimalgoritmo

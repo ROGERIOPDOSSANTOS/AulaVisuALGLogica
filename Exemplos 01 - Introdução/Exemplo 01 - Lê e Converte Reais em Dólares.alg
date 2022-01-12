@@ -4,10 +4,10 @@ var
 DOLAR,COTACAO,R:real
 inicio
 
-escreva("Digite a cota��o do d�lar+")
+escreva("Digite a cotacao do dolar")
 leia(COTACAO)
-escreva("Digite quantos d�lares deseja converter+")
+escreva("Digite quantos dolares deseja converter")
 leia(DOLAR)
 R<-COTACAO*DOLAR
-escreva("O total em R$ �",R)
+escreva("O total em R$ ",R)
 fimalgoritmo
